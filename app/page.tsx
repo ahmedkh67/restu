@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { Navbar } from "@/Components";
 import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
 
