@@ -8,10 +8,10 @@ export default function Home() {
         <div className="Hero_Background flex w-full bg-black h-screen flex-col justify-between items-center overflow-hidden">
             <Navbar />
             <div className="flex w-full h-full flex-col justify-evenly items-center">
-                <h1 className="md:text-[200px] text-[60px] font-bold">
+                <h1 className="md:text-[200px] text-[60px] font-bold text-white">
                     {Hero_title}
                 </h1>
-                <h1 className="text-center">
+                <h1 className="text-center text-white">
                     {Hero_Dis}
                 </h1>
                 
