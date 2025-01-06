@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  border: #ffffff;
+  border-width: 7px;
+  border-style: solid;
+  color: white;
+}
+
+.Menu_Icon {
+  transition: 0.3s;
+  border-radius: 20%;
+  &:hover {
+    background-color: white;
+    padding: 2px 4px 2px 4px;
+   
+  }
+}
+
+.Nav_Background {
+  background-color: #ffffff28;
+}
+
+
+.Hero_Background {
+  background-image: url('/slider-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
