@@ -39,8 +39,7 @@ button {
 
 .Nav_Background {
   background-color: #ffffff28;
-  min-width: 325px ;
-  width: 80;
+  width: 80%;
   height: 80px;
   margin: 32px 0;
 }
