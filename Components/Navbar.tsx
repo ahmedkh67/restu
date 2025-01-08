@@ -8,7 +8,7 @@ import { Logoname } from '@/Constants'
 const Navbar = () => {
   return (
     <>
-    <div className="flex w-[80%] h-4 bg-[#ffffff28] justify-between items-center px-4
+    <div className="flex md:w-[80%] w-[93%] h-4 bg-[#ffffff28] justify-between items-center px-4
       rounded-3xl md:px-6 py-10 my-8">
         
       <h1 className="text-5xl text-white">
