@@ -8,13 +8,14 @@ import { Logoname } from '@/Constants'
 const Navbar = () => {
   return (
     <>
-    <div className="flex max-w-6/7 min-w-80 h-20 justify-between items-center px-4
-      rounded-3xl md:px-6 py-10 my-8 Nav_Background">
-      <h1 className="text-6xl">
+    <div className="flex w-[80%] h-4 bg-[#ffffff28] justify-between items-center px-4
+      rounded-3xl md:px-6 py-10 my-8">
+        
+      <h1 className="text-5xl">
         {Logoname}
 
       </h1>
-      <Image src={logo} alt={'logoimag'} width={70} height={100} className='Menu_Icon' />
+      <Image src={logo} alt={'logoimag'} width={60} height={90} className='Menu_Icon' />
 
     </div>
     </>

@@ -43,7 +43,7 @@ body {
 
 button {
   border: #ffffff;
-  border-width: 7px;
+  border-width: 5px;
   border-style: solid;
   color: white;
 }
@@ -61,7 +61,6 @@ button {
 .Nav_Background {
   background-color: #ffffff28;
   width: 80%;
-  height: 80px;
   margin: 32px 0;
 }
 
