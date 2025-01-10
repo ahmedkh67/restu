@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Historysec from "./Historysec";
 import Paragraphsec from "./Paragraphsec";
 import Contentsec from "./Contentsec";
+import Distancesec from "./Distancesec";
 
 export {
     Navbar,
@@ -10,5 +11,6 @@ export {
     Historysec,
     Paragraphsec,
     Contentsec,
+    Distancesec,
 
 }

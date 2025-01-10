@@ -79,3 +79,11 @@ body {
   background-size: cover;
 }
 
+.Distance_Background1 {
+  background-image: url('/slider-2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
