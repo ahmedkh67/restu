@@ -30,8 +30,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: white;
+    --foreground: #0a0a0a;
   }
 }
 
@@ -41,11 +41,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
+.Button1 {
   border: #ffffff;
   border-width: 5px;
   border-style: solid;
   color: white;
+
+}
+.Button2 {
+  border: #000000;
+  border-width: 3px;
+  border-style: solid;
+  color: black;
 }
 
 .Menu_Icon {

@@ -1,5 +1,5 @@
 
-import { Navbar } from "@/Components";
+import { Historysec, Navbar } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
 
@@ -23,6 +23,7 @@ export default function Home() {
             </div>
         </div>
         <Moresec />
+        <Historysec />
             
         </>
     )

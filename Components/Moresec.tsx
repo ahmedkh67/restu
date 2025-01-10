@@ -7,6 +7,10 @@ const Moresec = () => {
       <Morebox />
       <Morebox />
       <Morebox />
+      <div className="md:flex hidden">
+      <Morebox />
+      </div>
+  
     
     </div>  
     )
