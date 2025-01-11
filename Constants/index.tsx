@@ -11,4 +11,10 @@ export const MoreBox_title = "Best Chefs"
 
 export const MoreBox_Dis = "retretretreteftre rewrew rew werwejkwrew ewrwe"
 
+export const Historysec_title = "Our History"
 
+export const Historysec_Dis = " best traditional food around the world and drinks and more best traditional food around the world and drs and more traditional food around ."
+
+export const Historysec_Dis2 = " best traditional food aro und the world and drinks around and drinks"
+
+export const Historysec_Button = "About us"
