@@ -87,3 +87,28 @@ body {
   background-size: cover;
 
 }
+
+.MenuContent_img1{
+  background-image: url('/Foodimg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.MenuContent_img2 {
+  background-image: url('/Pancakeimg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.MenuContent_img3 {
+  background-image: url('/Eggfoodimg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MenuContent_img1 ,
+.MenuContent_img2 ,
+.MenuContent_img3  {
+  filter: drop-shadow(2px 2px 4px rgb(24, 24, 24) );
+}

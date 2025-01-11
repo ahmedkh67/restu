@@ -8,7 +8,7 @@ import React from 'react'
 function Paragraphsec( {title, dis , dis2 , button_title} : {title :string , dis: string , dis2: string , button_title: string } ) {
   return (
     <div className="flex md:w-1/2 w-full flex-col justify-between h-full md:px-12 items-center md:items-start px-2">
-        <h1 className='text-black md:text-[36px] text-[40px] md:border-b-6 border-b-9 border-double md:w-52 w-56 font-bold border-black'>
+        <h1 className='text-black md:text-[36px] text-[40px] md:border-b-6 border-b-9 border-double md:w-52 w-56 font-bold border-black text-center md:text-start'>
             {title}
         </h1>
         <h1 className="text-black text-[22px] w-[90%] hidden md:flex pt-8">

@@ -4,6 +4,8 @@ import Historysec from "./Historysec";
 import Paragraphsec from "./Paragraphsec";
 import Contentsec from "./Contentsec";
 import Distancesec from "./Distancesec";
+import Menusec from "./Menusec";
+import MenuContent from "./MenuContent";
 
 export {
     Navbar,
@@ -12,5 +14,7 @@ export {
     Paragraphsec,
     Contentsec,
     Distancesec,
+    Menusec,
+    MenuContent,
 
 }
