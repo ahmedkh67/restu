@@ -107,8 +107,3 @@ body {
   background-size: cover;
 }
 
-.MenuContent_img1 ,
-.MenuContent_img2 ,
-.MenuContent_img3  {
-  filter: drop-shadow(2px 2px 4px rgb(24, 24, 24) );
-}
