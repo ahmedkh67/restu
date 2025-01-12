@@ -4,17 +4,15 @@ import React from 'react'
 
 // nake a variable for text sizes in paragraph sextion . 
 
-//interface Paragraphsecparams {
-//    title :string , 
-//    dis: string , 
-//    dis2: string , 
-//   button_title: string , 
-//    Url: string
-//}
+type Paragraphsecparams = {
+    title :string , 
+    dis: string , 
+    dis2: string , 
+   button_title: string , 
+    Url?: string
+}
 
-function Paragraphsec( {title, dis , dis2 , button_title , Url } : {title : string , dis : string ,
-                        dis2 : string , button_title : string , Url?: string
-                        } ) {
+function Paragraphsec( {title, dis , dis2 , button_title , Url } : Paragraphsecparams ) {
   return (
     <div className="flex md:w-1/2 w-full flex-col justify-between h-full md:px-12 items-center md:items-start px-2">
         <h1 className='text-black md:text-[36px] text-[40px] md:border-b-6 border-b-9 border-double md:w-52 w-56 font-bold border-black text-center md:text-start'>
@@ -31,8 +29,6 @@ function Paragraphsec( {title, dis , dis2 , button_title , Url } : {title : stri
             {button_title}
         </button>
         </a>
-        
-        
         
     </div>
 )
