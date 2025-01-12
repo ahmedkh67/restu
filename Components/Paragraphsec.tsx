@@ -13,7 +13,7 @@ import React from 'react'
 //}
 
 function Paragraphsec( {title, dis , dis2 , button_title , Url } : {title : string , dis : string ,
-                        dis2 : string , button_title : string , Url : string
+                        dis2 : string , button_title : string , Url?: string
                         } ) {
   return (
     <div className="flex md:w-1/2 w-full flex-col justify-between h-full md:px-12 items-center md:items-start px-2">
