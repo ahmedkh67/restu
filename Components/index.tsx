@@ -6,6 +6,7 @@ import Contentsec from "./Contentsec";
 import Distancesec from "./Distancesec";
 import Menusec from "./Menusec";
 import MenuContent from "./MenuContent";
+import MenuSlider from "./MenuSlider";
 
 export {
     Navbar,
@@ -16,5 +17,7 @@ export {
     Distancesec,
     Menusec,
     MenuContent,
+    MenuSlider,
+    
 
 }

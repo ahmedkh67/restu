@@ -34,11 +34,28 @@
     --foreground: #0a0a0a;
   }
 }
+* {
+  scroll-behavior: smooth;
+  cursor: default;
+}
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(105%);
+  transition: 0.2s ;
+  background-color: black;
+  color: white ;
+  border-color: black;
+  
+
 }
 
 .Button1 {
