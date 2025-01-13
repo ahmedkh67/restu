@@ -1,5 +1,5 @@
 
-import { Distancesec, Historysec, Menusec, Navbar } from "@/Components";
+import { Distancesec, Historysec, Menulist, Menusec, Navbar } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
 import Link from "next/link";
@@ -29,7 +29,8 @@ export default function Home() {
         <Historysec />
         <Distancesec />
         <Menusec />
-            
+        <Menulist /> 
+        
         </>
     )
 }

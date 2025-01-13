@@ -8,6 +8,8 @@ import Menusec from "./Menusec";
 import MenuContent from "./MenuContent";
 import MenuSlider from "./MenuSlider";
 import MSliderComponent from "./MSliderComponent";
+import Menulist from "./Menulist"
+import Tap from "./Tap";
 
 export {
     Navbar,
@@ -20,6 +22,8 @@ export {
     MenuContent,
     MenuSlider,
     MSliderComponent,
+    Menulist,
+    Tap,
     
 
 }

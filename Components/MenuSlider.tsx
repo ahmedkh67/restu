@@ -37,7 +37,7 @@ const MenuSlider = () => {
           disableOnInteraction: false}}
         spaceBetween={0} 
         
-        className="text-white flex h-28 w-full Swiper_Home" >
+        className="text-white flex h-28 w-full cursor-pointer" >
         
           <SwiperSlide>
             <MSliderComponent />
