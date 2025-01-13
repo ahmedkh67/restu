@@ -20,7 +20,7 @@ const MenuSlider = () => {
         <Swiper
         // install Swiper modules
         
-        modules={[Autoplay,Navigation, Pagination,Scrollbar]}
+        modules={[Autoplay, Pagination,Scrollbar]}
         pagination={true} 
         slidesPerView={3}
         breakpoints={
@@ -30,7 +30,7 @@ const MenuSlider = () => {
             }
           }
         }
-        navigation
+        
         scrollbar
         loop={true}
         autoplay={{delay: 2500,
