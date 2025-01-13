@@ -7,6 +7,7 @@ import Distancesec from "./Distancesec";
 import Menusec from "./Menusec";
 import MenuContent from "./MenuContent";
 import MenuSlider from "./MenuSlider";
+import MSliderComponent from "./MSliderComponent";
 
 export {
     Navbar,
@@ -18,6 +19,7 @@ export {
     Menusec,
     MenuContent,
     MenuSlider,
+    MSliderComponent,
     
 
 }

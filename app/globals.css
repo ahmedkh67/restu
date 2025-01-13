@@ -125,10 +125,10 @@ button:hover {
 }
 
 
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
+  
 
   /* Center slide text vertically */
   display: flex;
@@ -139,4 +139,33 @@ button:hover {
 .swiper-slide img {
   display: flex;
   object-fit: cover;
+}
+
+
+@layer slidercompnents {
+  .FoodImg {
+    @apply flex w-full h-full ;
+  }
+
+  .Pricesquare {
+    @apply flex w-[60px] h-[55px] bg-white absolute top-0 right-0 justify-center items-center ;
+    border-radius: 0 0 20px 20px ;
+  }
+
+  .Pricetext {
+    @apply text-2xl text-black font-semibold opacity-70 ;
+  }
+
+  .Titlesquare {
+    @apply flex w-full h-1/4 bg-white absolute bottom-0 justify-center ;
+
+  }
+
+  .Titletext {
+    @apply text-center text-black opacity-70 ;
+  }
+}
+
+.Swiper_Home {
+  box-shadow: inset 0px 0px 10px black;
 }
