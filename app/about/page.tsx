@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {Navbar } from "@/Components";
-import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
+import { Hero_Dis, Hero_Button } from "@/Constants";
 import Link from "next/link";
 import Moresec from '@/Components/Moresec';
 
