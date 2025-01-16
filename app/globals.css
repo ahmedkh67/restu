@@ -26,6 +26,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --Herotitle: 60px ;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -99,6 +101,15 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.About_Background {
+  background-image: url('/slider-3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .Distance_Background1 {
   background-image: url('/slider-2.jpg');
