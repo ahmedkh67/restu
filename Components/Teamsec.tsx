@@ -1,6 +1,8 @@
 import React from 'react'
 import Paragraphsec from './Paragraphsec'
 import Contentsec from './Contentsec'
+import TeamCard from './TeamCard'
+import Cardslide from './CardsSlide'
 
 const Teamsec = () => {
   return (
@@ -8,7 +10,7 @@ const Teamsec = () => {
     <Paragraphsec title={'Our Team'} dis={'best traditional food around the world and drinks and drs and more traditional food around '} 
     dis2={'best traditional food aro und the world and drinks around and drinks'} 
     button_title={'All Team'} />
-    <Contentsec />
+    <Cardslide/>
     
     </div>
   )

@@ -11,6 +11,8 @@ import MSliderComponent from "./MSliderComponent";
 import Menulist from "./Menulist"
 import Tap from "./Tap";
 import Teamsec from "./Teamsec";
+import TeamCard from "./TeamCard";
+import CardsSlide from "./CardsSlide";
 
 export {
     Navbar,
@@ -26,6 +28,8 @@ export {
     Menulist,
     Tap,
     Teamsec,
+    TeamCard,
+    CardsSlide,
     
 
 }
