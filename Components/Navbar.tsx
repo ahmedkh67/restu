@@ -27,7 +27,7 @@ const Navbar = () => {
 
     </div>
     <div className={`flex w-full md:w-1/3 h-full bg-white absolute top-0 right-0 fixed z-20 px-6 flex-col md:pt-0 pt-6
-       ${open? 'Menuactive' : 'Menuinactive'} `}>
+       ${open? 'Menuactive' : 'Menuinactive'}  *:`}>
 
 
         <div className="flex justify-between w-full h-32 items-center">

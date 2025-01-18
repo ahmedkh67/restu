@@ -202,3 +202,26 @@ button:hover {
   transform: translateX(500px);
 
 }
+
+.animate {
+  animation: fadeoutt 0.2s ease-in-out;
+}
+.animatte {
+  animation: fadeouttt 0.2s ease-in-out;
+}
+
+@keyframes fadeoutt {
+  0% {
+    opacity: 0;
+  }100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeouttt {
+  0% {
+    opacity: 0;
+  }100% {
+    opacity: 1;
+  }
+}

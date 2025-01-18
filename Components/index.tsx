@@ -10,6 +10,7 @@ import MenuSlider from "./MenuSlider";
 import MSliderComponent from "./MSliderComponent";
 import Menulist from "./Menulist"
 import Tap from "./Tap";
+import Teamsec from "./Teamsec";
 
 export {
     Navbar,
@@ -24,6 +25,7 @@ export {
     MSliderComponent,
     Menulist,
     Tap,
+    Teamsec,
     
 
 }

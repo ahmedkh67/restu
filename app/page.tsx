@@ -1,10 +1,11 @@
 
-import { Distancesec, Historysec, Menulist, Menusec, Navbar } from "@/Components";
+import { Distancesec, Historysec, Menulist, Menusec, Navbar, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
 import Link from "next/link";
 
 export default function Home() {
+   
     return (
         <>
         <div className="Hero_Background flex w-full bg-black md:h-screen h-screen flex-col justify-between items-center overflow-hidden pb-20">
@@ -30,6 +31,8 @@ export default function Home() {
         <Distancesec />
         <Menusec />
         <Menulist /> 
+        <Distancesec />
+        <Teamsec />
         
         </>
     )

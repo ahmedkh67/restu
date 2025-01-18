@@ -13,17 +13,27 @@ import SwitchIcon from '@/public/SwitchArrowIcon.svg'
 import Img1 from "@/public/Foodimg.jpg"; 
 import MSliderComponent from './MSliderComponent';
 
+import { useState } from 'react';
+
 const MenuSlider = () => {
+
+    const [Type , setType] = useState(false)
+    const togglepopular= () => {
+      setType(!Type)
+      
+    }
+
   return (
     <>
     <div className="flex w-full justify-center pb-10 flex-col items-end ">
-        <button className=" bg-slate-600 text-white md:text-2xl text-4xl px-4 py-1 flex 
-        md:mx-60 mx-6 my-4 justify-between items-center rounded-lg ">
-        Popular <Image src={SwitchIcon} alt={'switch arrow icon '} width={25} className='pointer mx-2' />
-        </button>
-       <div className="flex w-[900px] h-28 md:mx-60 mx-6 rounded-2xl justify-center items-center overflow-hidden Swiper_Home z-10  border-double">
+        <button className={` bg-slate-600 text-white md:text-2xl text-4xl px-4 py-1 flex 
+        md:mx-60 mx-6 my-4 justify-between items-center rounded-lg ${Type? 'animate' : 'animatte'}  *:`} onClick={togglepopular} >
+        { Type ? "Rated" : "Popular"} <Image src={SwitchIcon} alt={'switch arrow icon '} width={25} className='pointer mx-2'/>
+        </button >    
+
+        <div className="flex w-[900px] h-28 md:mx-60 mx-6 rounded-2xl justify-center items-center overflow-hidden Swiper_Home z-10  border-double">
         
-       
+
         
         <Swiper
         // install Swiper modules
