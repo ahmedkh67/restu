@@ -23,15 +23,22 @@ const MenuSlider = () => {
       
     }
 
-  return (
+  return ( 
     <>
     <div className="flex w-full justify-center pb-10 flex-col items-end ">
-        <button className={` bg-slate-600 text-white md:text-2xl text-4xl px-4 py-1 flex 
+      <div className="flex w-full justify-between items-center ">
+        <h1 className='md:mx-52 ml-4 my-4 md:text-3xl text-2xl'>
+          take a look?
+        </h1>
+      <button className={` bg-slate-600 text-white md:text-2xl text-3xl px-4 py-1 flex 
         md:mx-60 mx-6 my-4 justify-between items-center rounded-lg ${Type? 'animate' : 'animatte'}  *:`} onClick={togglepopular} >
-        { Type ? "Rated" : "Popular"} <Image src={SwitchIcon} alt={'switch arrow icon '} width={25} className='pointer mx-2'/>
-        </button >    
+        { Type ? "Rated" : "Popular"} <Image src={SwitchIcon}  alt={'switch arrow icon '} width={25} className='pointer mx-2'/>
+        </button >   
+        
+      </div>
+         
 
-        <div className="flex w-[900px] h-28 md:mx-60 mx-6 rounded-2xl justify-center items-center overflow-hidden Swiper_Home z-10  border-double">
+        <div className="flex md:w-[900px] w-9/10 h-28 md:mx-60 mx-6 rounded-2xl justify-center items-center overflow-hidden ">
         
 
         
