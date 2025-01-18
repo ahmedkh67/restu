@@ -13,7 +13,7 @@ import 'swiper/css/effect-cards';
 
 
 // import required modules
-import { EffectCards } from 'swiper/modules';
+import { Autoplay , EffectCards , Pagination , Navigation } from 'swiper/modules';
 
  function Cardslide() {
   return (
@@ -22,8 +22,10 @@ import { EffectCards } from 'swiper/modules';
       <Swiper
         effect={'cards'}
         grabCursor={true}
-        modules={[EffectCards]}
+        modules={[EffectCards , Autoplay , Pagination , Navigation]}
         loop={true}
+        autoplay={{delay: 2500,
+            disableOnInteraction: false}}
         className="mySwiper w-68 "
       >
         <SwiperSlide>
@@ -50,7 +52,7 @@ import { EffectCards } from 'swiper/modules';
                     <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
                     <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
                 </div>
-                <div className="flex px-4 bg-black rounded-3xl">
+                <div className="flex px-3 py-1 bg-black rounded-3xl">
                     <Image src={Arrow} alt={'go arrow'} width={40} className='' />
                 </div>
             </div>
@@ -83,7 +85,7 @@ import { EffectCards } from 'swiper/modules';
                     <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
                     <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
                 </div>
-                <div className="flex px-4 bg-black rounded-3xl">
+                <div className="flex px-3 py-1 bg-black rounded-3xl">
                     <Image src={Arrow} alt={'go arrow'} width={40} className='' />
                 </div>
             </div>
@@ -116,7 +118,7 @@ import { EffectCards } from 'swiper/modules';
                     <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
                     <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
                 </div>
-                <div className="flex px-4 bg-black rounded-3xl">
+                <div className="flex px-3 py-1 bg-black rounded-3xl">
                     <Image src={Arrow} alt={'go arrow'} width={40} className='' />
                 </div>
             </div>
@@ -148,7 +150,7 @@ import { EffectCards } from 'swiper/modules';
                     <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
                     <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
                 </div>
-                <div className="flex px-4 bg-black rounded-3xl">
+                <div className="flex px-3 py-1 bg-black rounded-3xl">
                     <Image src={Arrow} alt={'go arrow'} width={40} className='' />
                 </div>
             </div>

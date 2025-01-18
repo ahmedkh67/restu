@@ -1,5 +1,5 @@
 
-import { Distancesec, Historysec, Menulist, Menusec, Navbar, Teamsec } from "@/Components";
+import { Distancesec, Historysec, Mapsec, Menulist, Menusec, Navbar, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
 import Link from "next/link";
@@ -33,6 +33,7 @@ export default function Home() {
         <Menulist /> 
         <Distancesec />
         <Teamsec />
+        <Mapsec />
         
         </>
     )

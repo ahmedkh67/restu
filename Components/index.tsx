@@ -13,6 +13,7 @@ import Tap from "./Tap";
 import Teamsec from "./Teamsec";
 import TeamCard from "./TeamCard";
 import CardsSlide from "./CardsSlide";
+import Mapsec from "./Mapsec";
 
 export {
     Navbar,
@@ -30,6 +31,7 @@ export {
     Teamsec,
     TeamCard,
     CardsSlide,
+    Mapsec
     
 
 }
