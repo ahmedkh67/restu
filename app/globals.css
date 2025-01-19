@@ -225,3 +225,9 @@ button:hover {
     transform: scale(100%);
   }
 }
+
+.hg {
+
+  stroke: rgb(255, 255, 255);
+  fill: #ffffff;
+}

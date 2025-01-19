@@ -7,12 +7,14 @@ import { Logoname } from '@/Constants'
 import Tap from './Tap'
 import Closeicon from '@/public/Closeicon.svg'
 import { useState ,useEffect,useRef } from 'react'
+import Arrowicon from "@/public/Arrow2Icon.svg"
 
 //md:w-[1720px] md:h-[84px] w-[355px] h-[70px]
 
 const Navbar = () => {
 
   const [open , setopen] = useState(false) ;
+  const [isopen , setisopen ] = useState(false)
 
   return (
     <>
@@ -42,10 +44,21 @@ const Navbar = () => {
             </div>
 
         </div>
-        <div className="flex w-full h-full  flex-col justify-start items-start">
+        <div className="flex w-full h-full flex-col justify-start items-start">
             <ul className='w-full'>
-                <Tap title={'Home'} link={''} />
-                <Tap title={'About'} link={'/about'} />
+                <Tap title={'Home'} link={'./'} />
+                <div className="flex " onClick={() => {setisopen(!isopen)}}>                  
+                  <div className='w-full'>
+                    <Tap title={'About'} link={''} />
+                  </div>
+                  <Image src={Arrowicon} alt={'arrow icon'} width={20} className={`bg-black  ${isopen? 'rotate-90' : 'rotate-0'}  *:`}/>
+                  
+                </div>
+                <div className={`flex w-full pl-8 flex-col transition-[0.3s] ${isopen? 'hiddenn' : 'hidden'}  *:`}>
+                
+                  <Tap title={'History'} link={'/about/History'} />
+                  <Tap title={'Our team'} link={'/about/Team'} />
+                </div>
                 <Tap title={'Menu'} link={'/about'} />
                 <Tap title={'Contacts'} link={'/about'} />
             </ul>

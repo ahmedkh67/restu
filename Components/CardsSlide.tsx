@@ -29,136 +29,18 @@ import { Autoplay , EffectCards , Pagination , Navigation } from 'swiper/modules
         className="mySwiper w-68 "
       >
         <SwiperSlide>
-            
-        <div className="flex w-64 h-80 bg-gray-300 rounded-3xl flex-col overflow-hidden">
-        <div className="flex w-full h-full bg-black">
-
-        </div>
-        <div className="flex w-full h-1/2 flex-col justify-evenly items-start p-2">
-            <div className="flex w-full h-full flex-col justify-center items-start ">
-                
-                <h1 className='text-2xl text-center'>
-                    Mark Zakery
-                </h1>
-                
-                <p className='text-sm text-center'>
-                    Chef
-                </p>
-                
-            </div>
-            <div className="flex w-full h-full">
-                <div className="flex w-full h-full justify-start items-center">
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mr-2' />
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
-                </div>
-                <div className="flex px-3 py-1 bg-black rounded-3xl">
-                    <Image src={Arrow} alt={'go arrow'} width={40} className='' />
-                </div>
-            </div>
-            
-        </div>
-    </div>
-        </SwiperSlide>
-        
-        <SwiperSlide>
-            
-        <div className="flex w-64 h-80 bg-green-300 rounded-3xl flex-col overflow-hidden">
-        <div className="flex w-full h-full bg-black">
-
-        </div>
-        <div className="flex w-full h-1/2 flex-col justify-evenly items-start p-2">
-            <div className="flex w-full h-full flex-col justify-center items-start ">
-                
-                <h1 className='text-2xl text-center'>
-                    Mark Zakery
-                </h1>
-                
-                <p className='text-sm text-center'>
-                    Chef
-                </p>
-                
-            </div>
-            <div className="flex w-full h-full">
-                <div className="flex w-full h-full justify-start items-center">
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mr-2' />
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
-                </div>
-                <div className="flex px-3 py-1 bg-black rounded-3xl">
-                    <Image src={Arrow} alt={'go arrow'} width={40} className='' />
-                </div>
-            </div>
-            
-        </div>
-    </div>
-        </SwiperSlide>
-        
-        <SwiperSlide>
-            
-        <div className="flex w-64 h-80 bg-red-300 rounded-3xl flex-col overflow-hidden">
-        <div className="flex w-full h-full bg-black">
-
-        </div>
-        <div className="flex w-full h-1/2 flex-col justify-evenly items-start p-2">
-            <div className="flex w-full h-full flex-col justify-center items-start ">
-                
-                <h1 className='text-2xl text-center'>
-                    Mark Zakery
-                </h1>
-                
-                <p className='text-sm text-center'>
-                    Chef
-                </p>
-                
-            </div>
-            <div className="flex w-full h-full">
-                <div className="flex w-full h-full justify-start items-center">
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mr-2' />
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
-                </div>
-                <div className="flex px-3 py-1 bg-black rounded-3xl">
-                    <Image src={Arrow} alt={'go arrow'} width={40} className='' />
-                </div>
-            </div>
-            
-        </div>
-    </div>
+            <TeamCard Name={'Mark Akery'} Role={'Owner'} />
         </SwiperSlide>
         <SwiperSlide>
-            
-        <div className="flex w-64 h-80 bg-green-300 rounded-3xl flex-col overflow-hidden">
-        <div className="flex w-full h-full bg-black">
-
-        </div>
-        <div className="flex w-full h-1/2 flex-col justify-evenly items-start p-2">
-            <div className="flex w-full h-full flex-col justify-center items-start ">
-                
-                <h1 className='text-2xl text-center'>
-                    Mark Zakery
-                </h1>
-                
-                <p className='text-sm text-center'>
-                    Chef
-                </p>
-                
-            </div>
-            <div className="flex w-full h-full">
-                <div className="flex w-full h-full justify-start items-center">
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mr-2' />
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
-                    <Image src={Chefhat} alt={'icon '} width={30} className='mx-2'/>
-                </div>
-                <div className="flex px-3 py-1 bg-black rounded-3xl">
-                    <Image src={Arrow} alt={'go arrow'} width={40} className='' />
-                </div>
-            </div>
-            
-        </div>
-    </div>
+            <TeamCard Name={'Fina Han'} Role={'Chef'} />
         </SwiperSlide>
-        
+        <SwiperSlide>
+            <TeamCard Name={'Suzan Ali'} Role={'Chef'} />
+        </SwiperSlide>
+        <SwiperSlide>
+            <TeamCard Name={'Chin Duong'} Role={'Market boss'} />
+        </SwiperSlide>
+
         
         
       </Swiper>

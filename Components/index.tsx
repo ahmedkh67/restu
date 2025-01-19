@@ -15,6 +15,7 @@ import TeamCard from "./TeamCard";
 import CardsSlide from "./CardsSlide";
 import Mapsec from "./Mapsec";
 
+
 export {
     Navbar,
     Morebox,

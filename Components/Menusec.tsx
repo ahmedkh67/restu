@@ -9,7 +9,7 @@ import MenuSlider from './MenuSlider';
 const Menusec = () => {
   return (
     <>
-    <div className="flex flex-col md:flex-row w-full py-11 justify-evenly items-center md:px-48 md:h-[450px] my-16 bg-white">
+    <div className="flex flex-col md:flex-row w-full py-11 justify-center items-center md:px-48 md:h-[450px] my-16 bg-white">
       <MenuContent />
       <Paragraphsec title={Menusec_title} dis={Menusec_Dis} 
       dis2={Menusec_Dis2} button_title={Menusec_Button} />
