@@ -33,6 +33,17 @@ const page = () => {
         </Link>
     </div>
     <Moresec />
+
+    <div className="flex w-full justify-center flex-col items-center">
+      
+        <h1 className='md:text-4xl text-2xl text-center font-bold mt-6'>
+          Get to know our team
+        </h1>
+        <h1 className='md:text-3xl text-xl text-center w-3/4 md:w-1/2'>
+          Best Members to make sure the custmer get the best advice , 
+        </h1>
+    </div>
+
     <TeamCards />
     <Distancesec />
     <Historysec />
