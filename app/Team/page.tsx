@@ -1,7 +1,6 @@
 import React from 'react'
 
 import {Distancesec, Footer, Historysec, Mapsec, Navbar, TeamCard, TeamCards } from "@/Components";
-import { Hero_Dis} from "@/Constants";
 import Link from "next/link";
 import Moresec from '@/Components/Moresec';
 import Image from 'next/image';

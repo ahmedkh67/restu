@@ -1,7 +1,6 @@
 import React from 'react'
 
 import {Navbar } from "@/Components";
-import { Hero_Dis} from "@/Constants";
 import Link from "next/link";
 import Moresec from '@/Components/Moresec';
 import Image from 'next/image';
