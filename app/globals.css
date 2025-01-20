@@ -68,13 +68,14 @@ button:hover {
   border-width: 5px;
   border-style: solid;
   color: white;
-
+  border-radius: 5px;
 }
 .Button2 {
   border: #000000;
-  border-width: 3px;
+  border-width: 2px;
   border-style: solid;
   color: black;
+  border-radius: 5px;
 }
 
 .Menu_Icon {
@@ -102,7 +103,14 @@ button:hover {
   background-size: cover;
 }
 
-.About_Background {
+.History_Background {
+  background-image: url('/slider-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Team_Background {
   background-image: url('/slider-3.jpg');
   background-position: center;
   background-repeat: no-repeat;

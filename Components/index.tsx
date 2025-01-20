@@ -14,6 +14,8 @@ import Teamsec from "./Teamsec";
 import TeamCard from "./TeamCard";
 import CardsSlide from "./CardsSlide";
 import Mapsec from "./Mapsec";
+import Footer from "./Footer";
+import TeamCards from "./TeamCards";
 
 
 export {
@@ -32,7 +34,9 @@ export {
     Teamsec,
     TeamCard,
     CardsSlide,
-    Mapsec
+    Mapsec,
+    Footer,
+    TeamCards,
     
 
 }
