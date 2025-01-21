@@ -16,6 +16,10 @@ import CardsSlide from "./CardsSlide";
 import Mapsec from "./Mapsec";
 import Footer from "./Footer";
 import TeamCards from "./TeamCards";
+import Historyline from "./Historyline";
+import HistoryBox from "./HistoryBox";
+import HistoryImgBox from "./HistoryImgBox";
+
 
 
 export {
@@ -37,6 +41,9 @@ export {
     Mapsec,
     Footer,
     TeamCards,
+    Historyline,
+    HistoryBox,
+    HistoryImgBox,
     
 
 }

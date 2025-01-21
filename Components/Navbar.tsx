@@ -8,6 +8,10 @@ import Tap from './Tap'
 import Closeicon from '@/public/Closeicon.svg'
 import { useState ,useEffect,useRef } from 'react'
 import Arrowicon from "@/public/Arrowblack.svg"
+import Emailicon from '@/public/Email Icon.svg'
+import Insticon from '@/public/instagram-svgrepo-com (1).svg'
+import Whatsicon from '@/public/whatsapp-128-svgrepo-com.svg'
+import Linkedicon from '@/public/Linked in Icon.svg'
 
 //md:w-[1720px] md:h-[84px] w-[355px] h-[70px]
 
@@ -44,6 +48,7 @@ const Navbar = () => {
             </div>
 
         </div>
+        
         <div className="flex w-full h-full flex-col justify-start items-start">
             <ul className='w-full'>
                 <Tap title={'Home'} link={'././'} />
@@ -62,8 +67,14 @@ const Navbar = () => {
                 <Tap title={'Menu'} link={'/about'} />
                 <Tap title={'Contacts'} link={'/about'} />
             </ul>
-            
+            <div className="flex w-full justify-start items-start opacity-90 py-4">
+                    <Image src={Whatsicon} alt={'icon '} width={30} className='mr-2 transition-[0.3s] hover:transform-[scale(110%)] pointer' />
+                    <Image src={Insticon} alt={'icon '} width={35} className='mr-1 transition-[0.3s]  hover:transform-[scale(110%)] pointer' />
+                    <Image src={Linkedicon} alt={'icon '} width={30} className='mx-2 transition-[0.3s] hover:transform-[scale(110%)] pointer'/>
+                    
         </div>
+        </div>
+        
     </div> 
     </>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Navbar } from "@/Components";
+import {Distancesec, Footer, Historyline, Mapsec, Menusec, Navbar, Teamsec } from "@/Components";
 import Link from "next/link";
 import Moresec from '@/Components/Moresec';
 import Image from 'next/image';
@@ -32,6 +32,24 @@ const page = () => {
         </Link>
     </div>
     <Moresec />
+    <div className="flex w-full justify-center flex-col items-center">
+      
+      <h1 className='md:text-4xl text-2xl text-center font-bold mt-12'>
+        Get to know our History
+      </h1>
+      <h1 className='md:text-3xl text-xl text-center w-3/4 md:w-1/2'>
+        a honored resturant that bulit on passion , love , and consisty , 
+      </h1>
+  </div>
+    
+      <Historyline />
+      <Teamsec />
+      <Distancesec />
+      <Menusec />
+      <Mapsec />
+      <Footer />
+    
+    
     </>
   )
 }
