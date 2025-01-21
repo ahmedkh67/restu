@@ -46,7 +46,7 @@ const MenuSlider = () => {
         // install Swiper modules
         
         modules={[Autoplay, Pagination,Scrollbar]}
-        pagination={true} 
+        pagination={false} 
         slidesPerView={3}
         breakpoints={
           {

@@ -19,6 +19,7 @@ import TeamCards from "./TeamCards";
 import Historyline from "./Historyline";
 import HistoryBox from "./HistoryBox";
 import HistoryImgBox from "./HistoryImgBox";
+import Distance2 from "./Distance2";
 
 
 
@@ -44,6 +45,7 @@ export {
     Historyline,
     HistoryBox,
     HistoryImgBox,
+    Distance2,
     
 
 }

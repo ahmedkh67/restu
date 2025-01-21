@@ -14,11 +14,11 @@ const MSliderComponent = () => {
         21$
       </h1>
     </div>
-    <div className="Titlesquare">
+   {/*  <div className="Titlesquare ">
       <h1 className='Titletext'>
         Peppotine chese
       </h1>
-    </div>
+    </div> */} 
   
   </div>
   )
