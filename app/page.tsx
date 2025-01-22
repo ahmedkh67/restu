@@ -1,5 +1,5 @@
 
-import { Distance2, Distancesec, Footer, Historysec, Mapsec, Menulist, Menusec, Navbar, Numbox, Teamsec } from "@/Components";
+import { Distance2, Distancesec, Footer, Historysec, Mapsec, Menulist, Menusec, Navbar, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
 import Link from "next/link";
