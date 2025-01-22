@@ -21,6 +21,8 @@ import HistoryBox from "./HistoryBox";
 import HistoryImgBox from "./HistoryImgBox";
 import Distance2 from "./Distance2";
 import Numbox from "./Numbox";
+import Commentssec from "./Commentssec";
+import CommentBox from "./CommentBox";
 
 
 
@@ -48,6 +50,8 @@ export {
     HistoryImgBox,
     Distance2,
     Numbox,
+    Commentssec,
+    CommentBox,
     
 
 }

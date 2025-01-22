@@ -26,3 +26,49 @@ export const Menusec_Dis = " best traditional food around the world and drinks a
 export const Menusec_Dis2 = '" You are what you eat."'
 
 export const Menusec_Button= "Our Menu "
+
+
+
+export const Moreboxes = [
+    {
+        MoreBoxtitle: "wewswe",
+        MoreBoxbio: "23345edwr",
+        MoreBoxsrc: ""
+    },
+    {
+        MoreBoxtitle: "fdsgdssf",
+        MoreBoxbio: "sdfsdfsefdsefdse",
+        MoreBoxsrc: ""
+    },
+    {
+        MoreBoxtitle: "87iuyi76",
+        MoreBoxbio: "vdfrewrwer",
+        MoreBoxsrc: ""
+    },
+    
+]
+
+
+export const TeamCardslist = [
+    {
+        Name: "Mark",
+        Role:"Owner",
+        src:"",
+    },
+    {
+        Name: "Fina Han",
+        Role:"Chef",
+        src:"",
+    },
+    {
+        Name: "Suzan Ali",
+        Role:"Chef",
+        src:"",
+    },
+    {
+        Name: "Chin Duong",
+        Role:"Market boss",
+        src:"",
+    },
+    
+]

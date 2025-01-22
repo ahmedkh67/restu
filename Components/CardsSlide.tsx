@@ -14,6 +14,7 @@ import 'swiper/css/effect-cards';
 
 // import required modules
 import { Autoplay , EffectCards , Pagination , Navigation } from 'swiper/modules';
+import { TeamCardslist } from '@/Constants';
 
  function Cardslide() {
   return (
@@ -28,24 +29,16 @@ import { Autoplay , EffectCards , Pagination , Navigation } from 'swiper/modules
             disableOnInteraction: false}}
         className="mySwiper w-68 "
       >
-        <SwiperSlide>
-            <TeamCard Name={'Mark Akery'} Role={'Owner'} />
-        </SwiperSlide>
-        <SwiperSlide>
-            <TeamCard Name={'Fina Han'} Role={'Chef'} />
-        </SwiperSlide>
-        <SwiperSlide>
-            <TeamCard Name={'Suzan Ali'} Role={'Chef'} />
-        </SwiperSlide>
-        <SwiperSlide>
-            <TeamCard Name={'Chin Duong'} Role={'Market boss'} />
-        </SwiperSlide>
-
-        
-        
+        {TeamCardslist.map((item) => (
+          <SwiperSlide>
+          <TeamCard Name={item.Name} Role={item.Role} />
+          </SwiperSlide>
+        ))}
+              
       </Swiper>
     </div>
     </>
   );
 }
-export default Cardslide ;
+export default Cardslide ; 
+

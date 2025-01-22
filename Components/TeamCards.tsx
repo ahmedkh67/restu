@@ -2,6 +2,7 @@ import React from 'react'
 import TeamCard from './TeamCard'
 import Arrowicon from '@/public/Arrowblack.svg'
 import Image from 'next/image'
+import { TeamCardslist } from '@/Constants'
 
 const TeamCards = () => {
   return (
@@ -12,34 +13,15 @@ const TeamCards = () => {
         </button>
     </div>
     <div className="flex w-full h-full px-10 pb-14 pt-4 justify-evenly items-start flex-wrap">
-
-      <div className="flex my-4">
-        <TeamCard Name={'Mark'} Role={'Chef'} />
-      </div>
-      <div className="flex my-4">
-        <TeamCard Name={'Mark'} Role={'Chef'} />
-      </div>
-      <div className="flex my-4">
-        <TeamCard Name={'Mark'} Role={'Chef'} />
-      </div>
-      <div className="flex my-4">
-        <TeamCard Name={'Mark'} Role={'Chef'} />
-      </div>
-
+      {TeamCardslist.map((item) => (
+        <div className="flex my-4">
+        <TeamCard Name={item.Name} Role={item.Role} />
+        </div>
+      ))}
+      
+      
     <div className="hidden md:flex justify-evenly items-start flex-wrap w-full h-full">
-        <div className="flex my-4">
-            <TeamCard Name={'Mark'} Role={'Chef'} />
-        </div>
-        <div className="flex my-4">
-            <TeamCard Name={'Mark'} Role={'Chef'} />
-        </div>
-        <div className="flex my-4">
-            <TeamCard Name={'Mark'} Role={'Chef'} />
-        </div>
-        <div className="flex my-4">
-            <TeamCard Name={'Mark'} Role={'Chef'} />
-        </div>
-        
+       {/* here was 4 team cards displays on md screens */}
     </div>
 
       
