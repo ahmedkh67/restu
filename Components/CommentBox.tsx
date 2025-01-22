@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function CommentBox (){
   return (
-    <div className="flex flex-col justify-between items-center py-10 px-5 bg-white w-full h-80 ">
+    <div className="flex flex-col justify-between items-center py-10 px-5 bg-white w-full h-86 ">
         <div className="flex w-14 h-14 rounded-full bg-black">
 
         </div>

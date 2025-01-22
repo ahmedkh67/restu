@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Distancesec, Footer, Historysec, Mapsec, Navbar, TeamCards } from "@/Components";
+import {Commentssec, Distancesec, Footer, Historysec, Mapsec, Navbar, TeamCards } from "@/Components";
 import Link from "next/link";
 import Image from 'next/image';
 import ArrowIcon from '@/public/Arrow2Icon.svg'
@@ -44,7 +44,7 @@ const page = () => {
     </div>
 
     <TeamCards />
-    <Distancesec />
+    <Commentssec />
     <Historysec />
     <Mapsec />
     <Footer />
