@@ -46,6 +46,7 @@ const page = () => {
     <TeamCards />
     <Commentssec />
     <Historysec />
+    <Distancesec/>
     <Mapsec />
     <Footer />
     </>
