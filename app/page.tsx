@@ -1,5 +1,5 @@
 
-import { Distance2, Distancesec, Footer, Historysec, Mapsec, Menulist, Menusec, Navbar, Teamsec } from "@/Components";
+import { Distance2, Distancesec, Footer, Historysec, Mapsec, Menulist, Menusec, Navbar, Numbox, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
 import Link from "next/link";
@@ -8,7 +8,7 @@ export default function Home() {
    
     return (
         <>
-        <div className="Hero_Background flex w-full bg-black md:h-screen h-screen flex-col justify-between items-center overflow-hidden pb-20">
+        <div className="Hero_Background flex w-full bg-black md:h-screen h-screen flex-col justify-between items-center overflow-hidden pb-40">
             <Navbar />
             <div className="flex w-full h-full flex-col justify-evenly items-center">
                 <h1 className="md:text-[170px] text-[60px] font-bold text-white">

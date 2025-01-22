@@ -11,7 +11,7 @@ import ArrowIcon from '@/public/Arrow2Icon.svg'
 const page = () => {
   return (
     <>
-    <div className="Team_Background flex w-full bg-black md:h-screen h-screen flex-col justify-between items-center overflow-hidden pb-20">
+    <div className="Team_Background flex w-full bg-black md:h-screen flex-col justify-between items-center overflow-hidden pb-20">
     <Navbar />
       <div className="flex w-full h-full flex-col justify-evenly items-start px-[10%]">
         
@@ -32,7 +32,7 @@ const page = () => {
         </button>
         </Link>
     </div>
-    <Moresec />
+    
 
     <div className="flex w-full justify-center flex-col items-center">
       

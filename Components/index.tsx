@@ -20,6 +20,7 @@ import Historyline from "./Historyline";
 import HistoryBox from "./HistoryBox";
 import HistoryImgBox from "./HistoryImgBox";
 import Distance2 from "./Distance2";
+import Numbox from "./Numbox";
 
 
 
@@ -46,6 +47,7 @@ export {
     HistoryBox,
     HistoryImgBox,
     Distance2,
+    Numbox,
     
 
 }
