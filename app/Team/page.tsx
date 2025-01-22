@@ -2,7 +2,6 @@ import React from 'react'
 
 import {Distancesec, Footer, Historysec, Mapsec, Navbar, TeamCards } from "@/Components";
 import Link from "next/link";
-import Moresec from '@/Components/Moresec';
 import Image from 'next/image';
 import ArrowIcon from '@/public/Arrow2Icon.svg'
 
