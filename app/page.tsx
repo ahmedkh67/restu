@@ -4,7 +4,6 @@ import Moresec from "@/Components/Moresec";
 import { Hero_title, Hero_Dis, Hero_Button } from "@/Constants";
 import Link from "next/link";
 import Historysec from "@/Components/Historysec"; 
-import { motion } from "framer-motion"; 
 
 
 export default function Home() {
