@@ -12,6 +12,8 @@ import Emailicon from '@/public/Email Icon.svg'
 import Insticon from '@/public/instagram-svgrepo-com (1).svg'
 import Whatsicon from '@/public/whatsapp-128-svgrepo-com.svg'
 import Linkedicon from '@/public/Linked in Icon.svg'
+import { motion } from "framer-motion"; 
+
 
 //md:w-[1720px] md:h-[84px] w-[355px] h-[70px]
 
@@ -22,7 +24,12 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="flex md:w-[80%] w-[93%] h-4 bg-[#ffffff28] justify-between items-center px-4
+    <motion.div className='md:w-[80%] w-[93%]'
+                        initial={{ opacity: 0, translateY: -50 }}
+                        whileInView={{ opacity: 1, translateY: 0 }}
+    
+                        >
+    <div className="flex w-full  h-4 bg-[#ffffff28] justify-between items-center px-4
       rounded-3xl md:px-6 py-10 my-8 ">
         
       <h1 className="text-5xl text-white">
@@ -76,6 +83,7 @@ const Navbar = () => {
         </div>
         
     </div> 
+    </motion.div>
     </>
   )
 }

@@ -1,6 +1,9 @@
 // import { Historysec_Button, Historysec_Dis, Historysec_Dis2, Historysec_title } from '@/Constants';
+"use client"
+
 import { Url } from 'next/dist/shared/lib/router/router';
 import React from 'react'
+import { motion } from "framer-motion"; 
 
 // nake a variable for text sizes in paragraph sextion . 
 
@@ -15,6 +18,11 @@ type Paragraphsecparams = {
 function Paragraphsec( {title, dis , dis2 , button_title , Url } : Paragraphsecparams ) {
   return (
     <div className="flex md:w-1/2 w-full flex-col justify-between h-full md:px-12 items-center md:items-start px-2">
+        <motion.div className=''
+                                initial={{ opacity: 0, translateX: -50 }}
+                                whileInView={{ opacity: 1, translateX: 0 }}
+            
+                                >
         <h1 className='text-black md:text-[36px] text-[40px] md:border-b-6 border-b-9 border-double md:w-52 w-56 font-bold border-black text-center md:text-start'>
             {title}
         </h1>
@@ -29,7 +37,7 @@ function Paragraphsec( {title, dis , dis2 , button_title , Url } : Paragraphsecp
             {button_title}
         </button>
         </a>
-        
+        </motion.div>
     </div>
 )
 }

@@ -9,7 +9,6 @@ const Contentsec = () => {
       <motion.div
                initial={{ opacity: 0, scale: 0}}
               whileInView={{ opacity: 1, scale: 1}}
-              viewport={{ once: true }}
               
               >
         <Image src={Historypic} alt={'pic of old resturant'} height={207} width={394}  />

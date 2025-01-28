@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Chefhat from '@/public/Chef hat Icon.svg'
 import Arrow from "@/public/Arrow2Icon.svg"
 import Image from 'next/image';
+import { motion } from "framer-motion"; 
 
 // Import Swiper styles
 import 'swiper/css';
@@ -19,6 +20,11 @@ import { TeamCardslist } from '@/Constants';
  function Cardslide() {
   return (
     <>
+    <motion.div
+      initial={{ opacity: 0, scale: 0}}
+    whileInView={{ opacity: 1, scale: 1}}
+    
+    >
     <div className="flex w-64 h-80 rounded-3xl flex-col overflow-hidden mb-6">
       <Swiper
         effect={'cards'}
@@ -36,7 +42,7 @@ import { TeamCardslist } from '@/Constants';
         ))}
               
       </Swiper>
-    </div>
+    </div></motion.div>
     </>
   );
 }
