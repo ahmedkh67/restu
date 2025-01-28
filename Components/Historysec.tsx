@@ -1,7 +1,11 @@
+"use client"
+
 import React from 'react'
 import Paragraphsec from './Paragraphsec';
 import Contentsec from './Contentsec';
 import { Historysec_Button, Historysec_Dis, Historysec_Dis2, Historysec_title } from '@/Constants';
+import { motion } from "framer-motion"; 
+
 
 const Historysec = () => {
   return (
@@ -9,7 +13,9 @@ const Historysec = () => {
         <Paragraphsec title={Historysec_title} dis={Historysec_Dis}
          dis2={Historysec_Dis2} button_title={Historysec_Button}
          Url={"/History"} />
-        <Contentsec />
+                          
+          <Contentsec />
+        
     </div>
   )
 }
