@@ -234,6 +234,28 @@ button:hover {
   }
 }
 
+.upanimate {
+  animation: up 1s ease-in-out ;
+}
+
+.upanimate2 {
+  animation: up 1.3s ease-in-out ;
+}
+
+.upanimate3 {
+  animation: up 1.6s ease-in-out ;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }100% {
+    opacity: 1;
+    transform: translateY(0); 
+   }
+}
+
 .hg {
 
   stroke: rgb(255, 255, 255);
