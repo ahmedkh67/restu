@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Historypic from '@/public/Historypic.avif'
 import { motion } from "framer-motion"; 
+import HistoryBox from './HistoryBox';
 
 const Contentsec = () => {
   return (
@@ -12,9 +13,13 @@ const Contentsec = () => {
               
               >
         <Image src={Historypic} alt={'pic of old resturant'} height={207} width={394}  />
+        
+        
+
       </motion.div>
+      
     </div>
   )
 }
 
-export default Contentsec
+export default Contentsec ;   

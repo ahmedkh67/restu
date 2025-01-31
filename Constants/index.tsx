@@ -33,17 +33,17 @@ export const Moreboxes = [
     {
         MoreBoxtitle: "wewswe",
         MoreBoxbio: "23345edwr",
-        MoreBoxsrc: ""
+        MoreBoxsrc: '/Chef hat Icon.svg'
     },
     {
         MoreBoxtitle: "fdsgdssf",
         MoreBoxbio: "sdfsdfsefdsefdse",
-        MoreBoxsrc: ""
+        MoreBoxsrc: "/Food plate Icon.svg"
     },
     {
         MoreBoxtitle: "87iuyi76",
         MoreBoxbio: "vdfrewrwer",
-        MoreBoxsrc: ""
+        MoreBoxsrc: "/Cup Icon.svg"
     },
     
 ]

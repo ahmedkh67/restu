@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 
 
 
+
 const Moresec = () => {
   return (
     <div id='moresec' className="flex w-full flex-col md:flex-row bg-white md:justify-around items-center justify-around">
@@ -17,7 +18,8 @@ const Moresec = () => {
             whileInView={{ opacity: 1, scale: 1 }}
 
             >
-        <Morebox title={item.MoreBoxtitle} bio={item.MoreBoxbio} />
+        <Morebox title={item.MoreBoxtitle} 
+        bio={item.MoreBoxbio} srcs={item.MoreBoxsrc} />
         </motion.div>
       ))}
     
