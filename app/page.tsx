@@ -38,8 +38,9 @@ export default function Home() {
         <Menusec />
         <Menulist /> 
         <Distance2 />
-        <Teamsec />
+        
         <Commentssec />
+        <Teamsec />
         <Mapsec />
         <Footer />
         
