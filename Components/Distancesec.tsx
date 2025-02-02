@@ -12,7 +12,8 @@ const Distancesec = () => {
                   whileInView={{ opacity: 1}}
                   
                   >
-    <div className="flex flex-col md:flex-row w-full md:h-70 Distance_Background1 justify-center items-center ">
+    <div className="flex flex-col md:flex-row w-full md:h-70 
+    Distance_Background1 justify-center items-center ">
         <Numbox />
         <Numbox />
         <Numbox />

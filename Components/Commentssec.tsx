@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 const Commentssec = () => {
   return (
-    <div className="flex w-full py-20 justify-center items-center Hero_Background md:px-30 px-6">
+    <div className="flex w-full py-20 justify-center items-center History_Background md:px-30 px-6">
         
         <Swiper
         modules={[Autoplay, Pagination , Scrollbar]}

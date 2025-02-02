@@ -15,7 +15,7 @@ const Menusec = () => {
       dis2={Menusec_Dis2} button_title={Menusec_Button} />
 
     </div>
-    <div className="flex w-full pb-11">
+    <div className="flex w-full ">
 
     
     <MenuSlider />

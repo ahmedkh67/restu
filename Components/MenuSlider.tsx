@@ -25,7 +25,7 @@ const MenuSlider = () => {
 
   return ( 
     <>
-    <div className="flex w-full justify-center pb-10 flex-col items-end ">
+    <div className="flex w-full justify-center pt-0 flex-col items-center ">
       <div className="flex w-full justify-between items-center ">
         <h1 className='md:mx-52 ml-4 my-4 md:text-3xl text-2xl'>
           take a look?
@@ -38,7 +38,7 @@ const MenuSlider = () => {
       </div>
          
 
-        <div className="flex md:w-[900px] w-9/10 h-28 md:mx-60 mx-6 rounded-2xl justify-center items-center overflow-hidden ">
+        <div className="flex md:w-full w-full h-50 md:mx-0 mx-0 rounded- justify-center items-center overflow-hidden bg-black">
         
 
         
@@ -47,7 +47,7 @@ const MenuSlider = () => {
         
         modules={[Autoplay, Pagination,Scrollbar]}
         pagination={false} 
-        slidesPerView={3}
+        slidesPerView={2}
         breakpoints={
           {
             800: {
@@ -62,7 +62,7 @@ const MenuSlider = () => {
           disableOnInteraction: false}}
         spaceBetween={0} 
         
-        className="text-white flex h-28 w-full cursor-pointer" >
+        className="text-white flex h-40 w-full cursor-pointer" >
         
           <SwiperSlide>
             <MSliderComponent />

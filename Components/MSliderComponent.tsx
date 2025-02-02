@@ -4,7 +4,7 @@ import Img1 from '@/public/Foodimg.jpg'
 
 const MSliderComponent = () => {
   return (
-    <div className="FoodImg">
+    <div className="FoodImg ">
     <Image src={Img1} alt={'iuy'} width={190} height={190} >
       
 

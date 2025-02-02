@@ -120,7 +120,7 @@ button:hover {
 
 
 .Distance_Background1 {
-  background-image: url('/slider-2.jpg');
+  background-image: url('/Distance.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,7 +167,7 @@ button:hover {
 
 @layer slidercompnents {
   .FoodImg {
-    @apply flex w-full h-full;
+    @apply flex w-full h-full ;
   }
 
   .Pricesquare {
