@@ -12,8 +12,8 @@ const Distance2 = () => {
                 Make a reservationd wdwdw rerdfwerw rewrewrewdfwer werewr
             </p>
         </div>
-        <div className="flex justify-start items-center">
-            <button className='Button2 md:py-6 py-3 md:px-6 p-16 text-2xl font-bold bg-white my-2 border-white '>
+        <div className="flex justify-start items-center w-full md:w-1/2">
+            <button className='Button2 text-2xl py-5 my-2 font-bold bg-white border-white w-full'>
                 Book now
             </button>
         </div>
