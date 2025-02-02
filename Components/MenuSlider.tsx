@@ -27,7 +27,7 @@ const MenuSlider = () => {
     <>
     <div className="flex w-full justify-center pt-4 flex-col items-center bg-black">
       <div className="flex w-full justify-between items-center ">
-        <h1 className='md:ml-60 ml-4 my-4 md:text-3xl text-2xl text-white'>
+        <h1 className='md:ml-60 ml-4 my-4 md:text-3xl text-xl text-white'>
           take a look?
         </h1>
       <button className={` bg-slate-000 text-white md:text-2xl text-2xl px-4 py-1 flex border-2 border-white
@@ -46,7 +46,7 @@ const MenuSlider = () => {
         // install Swiper modules
         
         modules={[Autoplay, Pagination,Scrollbar]}
-        pagination={false} 
+        pagination={true} 
         slidesPerView={2}
         breakpoints={
           {
