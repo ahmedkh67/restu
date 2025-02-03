@@ -23,6 +23,7 @@ import Distance2 from "./Distance2";
 import Numbox from "./Numbox";
 import Commentssec from "./Commentssec";
 import CommentBox from "./CommentBox";
+import Reservationbox from "./Reservationbox";
 
 
 
@@ -52,6 +53,7 @@ export {
     Numbox,
     Commentssec,
     CommentBox,
+    Reservationbox,
     
 
 }

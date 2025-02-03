@@ -3,6 +3,7 @@
 import React from 'react'
 import { motion } from "framer-motion"; 
 import { Resarvesec } from '@/Constants';
+import Link from 'next/link';
 
 const Distance2 = () => {
   return (
@@ -22,9 +23,10 @@ const Distance2 = () => {
                           whileInView={{ scale: 1}}
                           
                           ></motion.div> */}
-            <button className='Button2 text-2xl py-5 my-2 font-bold bg-white border-white w-full rounded-3xl'>
+            <Link href={'/Reservation'} className='w-full' ><button className='Button2 text-2xl py-5 my-2 font-bold bg-white border-white w-full rounded-3xl'>
                 {Resarvesec.Buttontitle}
             </button>
+            </Link>
         
         </div>
     </div>

@@ -119,6 +119,15 @@ button:hover {
 
 
 
+.Reservation_Background {
+  background-image: url('/hg.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+
+
 .Distance_Background1 {
   background-image: url('/Distance.jpg');
   background-attachment: fixed;

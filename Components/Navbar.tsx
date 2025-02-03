@@ -30,7 +30,7 @@ const Navbar = () => {
     
                         >
     <div className="flex w-full  h-4 bg-[#ffffff28] justify-between items-center px-4
-      rounded-3xl md:px-6 py-10 my-8 ">
+      rounded-3xl md:px-6 py-10 my-8 z-10">
         
       <h1 className="text-5xl text-white">
         {Logoname}
