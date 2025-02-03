@@ -14,6 +14,7 @@ import Img1 from "@/public/Foodimg.jpg";
 import MSliderComponent from './MSliderComponent';
 
 import { useState } from 'react';
+import { Mslider } from '@/Constants';
 
 const MenuSlider = () => {
 
@@ -64,55 +65,18 @@ const MenuSlider = () => {
         
         className="text-white flex h-40 w-full cursor-pointer" >
         
+        {Type ? Mslider.rated.map((item) => (
           <SwiperSlide>
-            <MSliderComponent />
-
+            <MSliderComponent Src={item.src} />
           </SwiperSlide>
-
-          
+        )) :
+        Mslider.popular.map((item) => (
           <SwiperSlide>
-            <MSliderComponent />
-
+            <MSliderComponent Src={item.src} />
           </SwiperSlide>
-
-          
-          <SwiperSlide>
-            <MSliderComponent />
-
-          </SwiperSlide>
-
-          
-          <SwiperSlide>
-            <MSliderComponent />
-
-          </SwiperSlide>
-
-          
-          <SwiperSlide>
-            <MSliderComponent />
-
-          </SwiperSlide>
-
-          
-          <SwiperSlide>
-            <MSliderComponent />
-
-          </SwiperSlide>
-
-          
-          <SwiperSlide>
-            <MSliderComponent />
-
-          </SwiperSlide>
-
-          
-          <SwiperSlide>
-            <MSliderComponent />
-
-          </SwiperSlide>
-
-          
-          
+        )) }
+        
+                 
         </Swiper>
         </div>
     </div>

@@ -3,6 +3,7 @@
 import React from 'react'
 import Numbox from './Numbox';
 import { motion } from "framer-motion"; 
+import { NumBoxes } from '@/Constants';
 
 
 const Distancesec = () => {
@@ -14,10 +15,9 @@ const Distancesec = () => {
                   >
     <div className="flex flex-col md:flex-row w-full md:h-70 
     Distance_Background1 justify-center items-center ">
-        <Numbox />
-        <Numbox />
-        <Numbox />
-      
+      {NumBoxes.map((item) => (
+        <Numbox Num={item.Num} Dis={item.Dis} Src={item.Src} />
+      ))}     
     </div>
     </motion.div>
   )

@@ -72,3 +72,76 @@ export const TeamCardslist = [
     },
     
 ]
+
+export const NumBoxes = [
+    {
+        Num: "+200" ,
+        Dis: "Chef",
+        Src: "/Chef hat Icon.svg"
+    },
+    {
+        Num: "+200" ,
+        Dis: "Chef",
+        Src: "/Chef hat Icon.svg"
+    },
+    {
+        Num: "+200" ,
+        Dis: "Chef",
+        Src: "/Chef hat Icon.svg"
+    },
+]
+
+export const Mslider = {
+    popular: [
+        {
+            src: "/Foodimg.jpg"
+        },
+        {
+            src: "/Foodimg.jpg"
+        },
+        {
+            src: "/Foodimg.jpg"
+        },
+        {
+            src: "/Foodimg.jpg"
+        },
+        {
+            src: "/Foodimg.jpg"
+        },
+        {
+            src: "/Foodimg.jpg"
+        },
+        {
+            src: "/Foodimg.jpg"
+        },
+        {
+            src: "/Foodimg.jpg"
+        },
+    ],
+    rated: [
+        {
+            src: "/Eggfoodimg.jpg"
+        },
+        {
+            src: "/Eggfoodimg.jpg"
+        },
+        {
+            src: "/Eggfoodimg.jpg"
+        },
+        {
+            src: "/Eggfoodimg.jpg"
+        },
+        {
+            src: "/Eggfoodimg.jpg"
+        },
+        {
+            src: "/Eggfoodimg.jpg"
+        },
+        {
+            src: "/Eggfoodimg.jpg"
+        },
+        {
+            src: "/Eggfoodimg.jpg"
+        },
+    ]
+}
