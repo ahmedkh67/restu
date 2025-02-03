@@ -2,7 +2,6 @@ import React from 'react'
 import Chefhat from '@/public/Chef hat Icon.svg'
 import Foodplate from '@/public/Food plate Icon.svg'
 import CoffeCup from '@/public/Cup Icon.svg'
-import { MoreBox_title,MoreBox_Dis } from '@/Constants'
 import Image from 'next/image'
 
 type MoreboxParams = {
