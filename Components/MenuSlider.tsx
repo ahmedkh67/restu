@@ -59,19 +59,19 @@ const MenuSlider = () => {
         
         scrollbar
         loop={true}
-        autoplay={{delay: 2500,
+        autoplay={{delay: 1700,
           disableOnInteraction: false}}
         spaceBetween={0} 
         
         className="text-white flex h-40 w-full cursor-pointer" >
         
         {Type ? Mslider.rated.map((item) => (
-          <SwiperSlide>
+          <SwiperSlide className='animate2'>
             <MSliderComponent Src={item.src} />
           </SwiperSlide>
         )) :
         Mslider.popular.map((item) => (
-          <SwiperSlide>
+          <SwiperSlide className='animatte2'>
             <MSliderComponent Src={item.src} />
           </SwiperSlide>
         )) }

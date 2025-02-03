@@ -208,10 +208,17 @@ button:hover {
 }
 
 .animate {
-  animation: fadeoutt 0.1s ease-in-out;
+  animation: fadeoutt 0.2s ease-in-out;
 }
 .animatte {
-  animation: fadeouttt 0.1s ease-in-out;
+  animation: fadeouttt 0.2s ease-in-out;
+}
+
+.animate2 {
+  animation: fadeoutt 0.6s ease-in-out;
+}
+.animatte2 {
+  animation: fadeouttt 0.6s ease-in-out;
 }
 
 @keyframes fadeoutt {

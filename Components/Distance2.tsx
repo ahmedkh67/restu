@@ -1,4 +1,8 @@
+"use client "
+
 import React from 'react'
+import { motion } from "framer-motion"; 
+import { Resarvesec } from '@/Constants';
 
 const Distance2 = () => {
   return (
@@ -6,16 +10,22 @@ const Distance2 = () => {
         <div className="flex flex-col justify-evenly items-start">
             
             <h1 className='md:text-5xl text-4xl text-white font-bold '>
-                Reserve table
+                {Resarvesec.Title}
             </h1>
             <p className='text-xl text-gray-300'>
-                Make a reservationd wdwdw rerdfwerw rewrewrewdfwer werewr
+                {Resarvesec.Dis}
             </p>
         </div>
         <div className="flex justify-start items-center w-full md:w-1/2">
-            <button className='Button2 text-2xl py-5 my-2 font-bold bg-white border-white w-full'>
-                Book now
+        {/* <motion.div
+                           initial={{ scale: 0}}
+                          whileInView={{ scale: 1}}
+                          
+                          ></motion.div> */}
+            <button className='Button2 text-2xl py-5 my-2 font-bold bg-white border-white w-full rounded-3xl'>
+                {Resarvesec.Buttontitle}
             </button>
+        
         </div>
     </div>
   )
