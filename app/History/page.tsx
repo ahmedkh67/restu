@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Commentssec, Distancesec, Footer, Historyline, Mapsec, Menusec, Navbar, Teamsec } from "@/Components";
+import {Commentssec, Distance2, Distancesec, Footer, Historyline, Mapsec, Menusec, Navbar, Teamsec } from "@/Components";
 import Link from "next/link";
 import Image from 'next/image';
 import ArrowIcon from '@/public/Arrow2Icon.svg'
@@ -39,12 +39,13 @@ const page = () => {
       <h1 className='md:text-3xl text-xl text-center w-3/4 md:w-1/2'>
         a honored resturant that bulit on passion , love , and consisty , 
       </h1>
-  </div>
+    </div>
     
       <Historyline />
       <Teamsec />
       <Distancesec />
       <Menusec />
+      <Distance2 />
       <Commentssec />
       <Mapsec />
       <Footer />

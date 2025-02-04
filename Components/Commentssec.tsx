@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Commentsecc } from '@/Constants';
 
 const Commentssec = () => {
   return (
@@ -33,23 +34,15 @@ const Commentssec = () => {
         spaceBetween={100}
          className='flex justify-center items-center ' >
 
-
+          {Commentsecc.map((item) => (
             <SwiperSlide className='flex justify-center items-center'>
-                <CommentBox />
+            <CommentBox name={item.name} comment={item.comment}
+             src={item.src} rate={item.rate} />
             </SwiperSlide>
+          ))}
+            
 
-            <SwiperSlide>
-                <CommentBox />
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <CommentBox />
-            </SwiperSlide>
-
-
-            <SwiperSlide>
-                <CommentBox />
-            </SwiperSlide>
+            
 
 
         </Swiper>

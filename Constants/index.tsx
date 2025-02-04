@@ -124,6 +124,37 @@ export const Resarvesec = {
     Buttontitle: "Book now"
 }
 
+export const Commentsecc = [
+    {
+        name: "ahmed mohamed",
+        rate: 3 ,
+        comment: "this is one of the best resturant ive ver had this year , hope you getting the higher places ,",
+        src: "/Eggfoodimg.jpg" 
+        
+    },
+    {
+        name: "ahmed mohamed",
+        rate: 5 ,
+        comment: "this is one of the best resturant ive ver had this year , hope you getting the higher places ,",
+        src: "/Eggfoodimg.jpg" 
+        
+    },
+    {
+        name: "ahmed mohamed",
+        rate: 4 ,
+        comment: "this is one of the best resturant ive ver had this year , hope you getting the higher places ,",
+        src: "/Eggfoodimg.jpg" 
+        
+    },
+    {
+        name: "ahmed mohamed",
+        rate: 5 ,
+        comment: "this is one of the best resturant ive ver had this year , hope you getting the higher places ,",
+        src: "/Eggfoodimg.jpg" 
+        
+    },
+]
+
 
 
 export const TeamCardslist = [
@@ -149,3 +180,5 @@ export const TeamCardslist = [
     },
     
 ]
+
+

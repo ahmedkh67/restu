@@ -13,8 +13,8 @@ const Distancesec = () => {
                   whileInView={{ opacity: 1}}
                   
                   >
-    <div className="flex flex-col md:flex-row w-full md:h-70 
-    Distance_Background1 justify-center items-center ">
+    <div className="flex flex-col md:flex-row w-full md:h-77 
+    Distance_Background1 justify-center items-center py-4">
       {NumBoxes.map((item) => (
         <Numbox Num={item.Num} Dis={item.Dis} Src={item.Src} />
       ))}     
