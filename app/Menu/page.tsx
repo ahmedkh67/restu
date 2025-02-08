@@ -1,6 +1,6 @@
 "use client"
 
-import { Menubox1, MenuDialog, MenuSlider, Navbar } from '@/Components'
+import { Menubox1, MenuSlider, Navbar } from '@/Components'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
