@@ -11,12 +11,12 @@ const Menubox1 = () => {
       return (
         <>
         <div className="flex flex-col justify-between items-center h-full w-full">
-          <div className="Menubox1_BackGround flex w-full h-50 bg-red-600 my-5">
+          <div className="Menubox1_Background flex w-full h-50 bg-red-600 my-5">
             
           </div>
         <div className="MenuCellsContainer flex w-full h-full bg-[rgb(223,223,223)] my-5 flex-col justify-center items-center p-4">
           {lunchmenu1.map((item) => (
-              <div className="flex w-full h-30  p-4 items-center transition-[0.3s] hover:bg-white" onClick={() => {
+              <div className="flex w-full h-30  p-4 items-center transition-[0.3s] hover:bg-white active:bg-white " onClick={() => {
                 <MenuDialog />
               }}>
                 

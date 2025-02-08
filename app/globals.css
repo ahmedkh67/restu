@@ -110,14 +110,12 @@ button:hover {
   background-size: cover;
 }
 
-.Team_Background {
+.Team_Background, .Menubox1_Background {
   background-image: url('/slider-3.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .Reservation_Background, .Menu_Background {
   background-image: url('/hg.jpg');

@@ -14,7 +14,7 @@ const MenusecsButtons = () => {
         </div>
       </Link>
 
-      <Link href={'#dinnerhmenu'}>
+      <Link href={'#dinnermenu'}>
         <div className="flex w-full md:h-40 h-23 md:m-10 m-1 rounded-2xl bg-blue-300 p-3">
           <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid 
             justify-center items-center text-2xl font-bold text-white ">

@@ -34,7 +34,7 @@ const page = () => {
     </div>
 
 
-    <section id='menumoresec'>
+    <section id='menumoresec' className='w-full' >
       <MenuSlider />
       <GalleryButton />
     </section>
@@ -51,7 +51,9 @@ const page = () => {
       </h1>
     </div>
 
-    <MenusecsButtons />
+    <div className="flex w-full">
+      <MenusecsButtons />
+    </div>
     
     <Lunchmenu />
     <MenuSlider />
