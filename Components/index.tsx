@@ -27,6 +27,11 @@ import Reservationbox from "./Reservationbox";
 import HistoryDis from "./HistoryDis";
 import Menubox1 from "./Menubox1";
 import MenuDialog from "./MenuDialog";
+import Lunchmenu from "./Lunchmenu";
+import Dinnermenu from "./Dinnermenu";
+import Sweetsmenu from "./Sweetsmenu";
+import GalleryButton from "./GalleryButton";
+import MenusecsButtons from "./MenusecsButtons";
 
 
 
@@ -60,5 +65,10 @@ export {
     HistoryDis,
     Menubox1,
     MenuDialog,
+    Lunchmenu,
+    Dinnermenu,
+    Sweetsmenu,
+    GalleryButton,
+    MenusecsButtons,
 
 }

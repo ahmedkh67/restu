@@ -24,7 +24,7 @@ const page = () => {
         
         
       </div>
-      <Link href={"#moresec"}>
+      <Link href={"#historymoresec"}>
         <button className="Button1 md:text-3xl text-4xl px-2 py-0.5 mt-[-7px] rounded-xl">
           <Image src={ArrowIcon} alt={'down arrow icon'} width={45} className='rotate-90 pointer ' />
         </button>
@@ -40,7 +40,9 @@ const page = () => {
         a honored resturant that bulit on passion , love , and consisty , 
       </h1>
     </div>
-    
+      <section id='historymoresec'>
+
+      </section>
       <Historyline />
       <Teamsec />
       <Distancesec />

@@ -215,3 +215,19 @@ export const lunchmenu1 = [
     
 
 ]
+
+export const Menuhero = "Our menu"
+
+export const Gallerybuttontitle = "Gallery"
+
+export const Menusecsbuttonstitle = [
+    {
+        title: "Lunch menu"
+    },
+    {
+        title: "Dinner menu"
+    },
+    {
+        title: "Sweets menu"
+    },
+]
