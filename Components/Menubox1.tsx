@@ -5,7 +5,8 @@ import MenuDialog from './MenuDialog'
 
 
 const Menubox1 = () => {
-  
+    
+
     {if(lunchmenu1.length > 0) {
       return (
         <>
@@ -48,7 +49,8 @@ const Menubox1 = () => {
 
   
         </div>
-        <MenuDialog />
+        {/* <MenuDialog /> */}
+        
         </>
   
       )

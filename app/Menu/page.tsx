@@ -1,10 +1,11 @@
 "use client"
 
-import { Menubox1, MenuSlider, Navbar } from '@/Components'
+import { Commentssec, Footer, Mapsec, Menubox1, MenuSlider, Navbar,Distance2 } from '@/Components'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import ArrowIcon from '@/public/Arrow2Icon.svg'
+
 
 const page = () => {
   return (
@@ -32,6 +33,7 @@ const page = () => {
     </div>
 
     <MenuSlider />
+    
 
     <div className="flex w-full justify-center flex-col items-center">
       
@@ -43,17 +45,41 @@ const page = () => {
     </h1>
   </div>
   <div className="flex w-full md:p-10 h-full flex-col justify-evenly bg-white mt-10">
+    <h1 className="Opacity_animate text-4xl md:text-6xl text-center m-8 ">
+      Dina Lunch Menu
+    </h1>
+    <div className="flex w-full justify-center items-center h-full md:flex-row flex-col">
+      <Menubox1 />
+      <Menubox1 />
+    </div>
+
+  </div>
+  <MenuSlider />
+  <Distance2 />
+  <div className="flex w-full md:p-10 h-full flex-col justify-evenly bg-white mt-10">
+    <h1 className="Opacity_animate text-4xl md:text-6xl text-center m-8 ">
+      Dina Dinner Menu
+    </h1>
+    <div className="flex w-full justify-center items-center h-full md:flex-row flex-col">
+      <Menubox1 />
+      <Menubox1 />
+    </div>
+
+  </div>
+  <div className="flex w-full md:p-10 h-full flex-col justify-evenly bg-white mt-10">
   <h1 className="Opacity_animate text-4xl md:text-6xl text-center m-8 ">
-    Dina Lunch Menu
+    Dina Sweets Menu
   </h1>
-<div className="flex w-full justify-center items-center h-full md:flex-row flex-col">
-  <Menubox1 />
-  <Menubox1 />
-  
-  
-</div>
+  <div className="flex w-full justify-center items-center h-full md:flex-row flex-col">
+    <Menubox1 />
+    <Menubox1 />
+  </div>
 
 </div>
+  <Commentssec />
+  <Mapsec />
+  <Footer />
+  
 
 </>
   )
