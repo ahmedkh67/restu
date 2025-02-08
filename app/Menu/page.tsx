@@ -7,17 +7,18 @@ import Image from 'next/image'
 import ArrowIcon from '@/public/Arrow2Icon.svg'
 
 const page = () => {
-  return (<>
+  return (
+    <>
     <div className="Team_Background flex w-full bg-black md:h-screen flex-col justify-between items-center overflow-hidden pb-20">
     <Navbar />
-      <div className="flex w-full h-full flex-col justify-evenly items-start px-[10%]">
+      <div className="flex w-full h-full flex-col justify-evenly items-start md:px-[10%]">
         
         <h1 className="md:text-[170px] text-[60px] font-bold text-white">
             Our menu 
             
         </h1>
         <h1 className="text-start text-gray-300 md:w-[30%] w-[65%] my-2 pb-6 text-3xl">
-                    
+            
         </h1>
         
         
@@ -54,8 +55,7 @@ const page = () => {
 
 </div>
 
-    
-    </>
+</>
   )
 }
 
