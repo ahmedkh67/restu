@@ -9,7 +9,7 @@ const Menubox1 = () => {
     {if(lunchmenu1.length > 0) {
       return (
         <>
-        <div className="flex flex-col justify-between items-center h-full">
+        <div className="flex flex-col justify-between items-center h-full w-full">
           <div className="Menubox1_BackGround flex w-full h-50 bg-red-600 my-5">
             
           </div>

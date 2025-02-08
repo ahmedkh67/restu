@@ -42,7 +42,7 @@ const page = () => {
       a honored resturant that bulit on passion , love , and consisty , 
     </h1>
   </div>
-  <div className="flex w-full p-10 h-full flex-col justify-evenly bg-white mt-10">
+  <div className="flex w-full md:p-10 h-full flex-col justify-evenly bg-white mt-10">
   <h1 className="Opacity_animate text-4xl md:text-6xl text-center m-8 ">
     Dina Lunch Menu
   </h1>
