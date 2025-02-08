@@ -52,19 +52,19 @@ const page = () => {
     </h1>
   </div>
   <div className="flex w-full justify-center items-center pt-10 md:flex-row flex-col">
-    <div className="flex w-full h-40 md:m-10 m-4 rounded-2xl bg-red-300 p-3">
+    <div className="flex w-full h-40 md:m-10 m-3 rounded-2xl bg-red-300 p-3">
       <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid 
       justify-center items-center text-2xl font-bold text-white ">
         Lunch Menu
       </div>
     </div>
-    <div className="flex w-full h-40 m-10 rounded-2xl bg-blue-300 p-3">
+    <div className="flex w-full h-40 md:m-10 m-3 rounded-2xl bg-blue-300 p-3">
       <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid 
         justify-center items-center text-2xl font-bold text-white ">
           Dinner Menu
         </div>
       </div>
-    <div className="flex w-full h-40 m-10 rounded-2xl bg-amber-300 p-3">
+    <div className="flex w-full h-40 md:m-10 m-3 rounded-2xl bg-amber-300 p-3">
       <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid 
         justify-center items-center text-2xl font-bold text-white ">
           Sweets Menu
