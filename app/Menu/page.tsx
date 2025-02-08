@@ -1,6 +1,6 @@
 "use client"
 
-import { Commentssec, Footer, Mapsec, Menubox1, MenuSlider, Navbar,Distance2, GalleryButton, MenusecsButtons, Lunchmenu, Dinnermenu, Sweetsmenu } from '@/Components'
+import { Commentssec, Footer, Mapsec, MenuSlider, Navbar,Distance2, GalleryButton, MenusecsButtons, Lunchmenu, Dinnermenu, Sweetsmenu } from '@/Components'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
@@ -45,7 +45,7 @@ const page = () => {
       <h1 className='md:text-4xl text-2xl text-center font-bold mt-12'>
         Get to know our History
       </h1>
-      
+
       <h1 className='md:text-3xl text-xl text-center w-3/4 md:w-1/2'>
         a honored resturant that bulit on passion , love , and consisty , 
       </h1>
