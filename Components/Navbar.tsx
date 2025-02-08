@@ -71,8 +71,8 @@ const Navbar = () => {
                   <Tap title={'History'} link={'/History'} />
                   <Tap title={'Our team'} link={'/Team'} />
                 </div>
-                <Tap title={'Menu'} link={'/about'} />
-                <Tap title={'Contacts'} link={'/about'} />
+                <Tap title={'Menu'} link={'/Menu'} />
+                <Tap title={'Contacts'} link={'/Contacts'} />
             </ul>
             <div className="flex w-full justify-start items-start opacity-90 py-4">
                     <Image src={Whatsicon} alt={'icon '} width={30} className='mr-2 transition-[0.3s] hover:transform-[scale(110%)] pointer' />

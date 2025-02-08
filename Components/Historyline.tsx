@@ -12,9 +12,8 @@ const Historyline = () => {
         
         <HistoryImgBox />
         <HistoryBox />
+        
 
-        <h1 className='text-xl mb-20 text-center'>
-            wdwdwdawdawdwdawdawd wejwijdiwjdi </h1>
         <HistoryBox />
 
         <h1 className='text-xl mb-20'>

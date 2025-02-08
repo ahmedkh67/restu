@@ -181,4 +181,37 @@ export const TeamCardslist = [
     
 ]
 
+export const lunchmenu1 = [
+    {
+        foodimg:"/Eggfoodimg.jpg",
+        foodname: "Chicken",
+        fooddes:"Sed ut perspiciatis unde",
+        foodprice:"$14"
+    },
+    {
+        foodimg:"/Eggfoodimg.jpg",
+        foodname: "Salad Bowl",
+        fooddes:"Sed ut perspiciatis unde",
+        foodprice:"$10"
+    },
+    {
+        foodimg:"/Eggfoodimg.jpg",
+        foodname: "Smoothie",
+        fooddes:"Sed ut perspiciatis unde",
+        foodprice:"$8"
+    },
+    {
+        foodimg:"/Eggfoodimg.jpg",
+        foodname: "Gin Trifles",
+        fooddes:"Sed ut perspiciatis unde",
+        foodprice:"$20"
+    },
+    {
+        foodimg:"/Eggfoodimg.jpg",
+        foodname: "Chicken",
+        fooddes:"Sed ut perspiciatis unde",
+        foodprice:"$14"
+    },
+    
 
+]

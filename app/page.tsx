@@ -12,6 +12,7 @@ export default function Home() {
     return (
         <>
         <div className="Hero_Background flex w-full bg-black md:h-screen h-screen flex-col justify-between items-center overflow-hidden pb-40">
+            
             <Navbar />
             <div className="flex w-full h-full flex-col justify-evenly items-center">
                  
@@ -28,6 +29,7 @@ export default function Home() {
                     {Herosec.Hero_Button}
                 </button>
                 </Link>
+                
                  
             </div>
         </div>
@@ -42,6 +44,7 @@ export default function Home() {
         <Teamsec />
         <Mapsec />
         <Footer />
+        
         
         
         </>

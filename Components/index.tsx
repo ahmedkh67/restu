@@ -24,6 +24,9 @@ import Numbox from "./Numbox";
 import Commentssec from "./Commentssec";
 import CommentBox from "./CommentBox";
 import Reservationbox from "./Reservationbox";
+import HistoryDis from "./HistoryDis";
+import Menubox1 from "./Menubox1";
+import MenuDialog from "./MenuDialog";
 
 
 
@@ -54,6 +57,8 @@ export {
     Commentssec,
     CommentBox,
     Reservationbox,
-    
+    HistoryDis,
+    Menubox1,
+    MenuDialog,
 
 }
