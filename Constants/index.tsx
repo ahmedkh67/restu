@@ -285,7 +285,7 @@ export const footerLinks = [
         { title: "How it works", url: "/" },
         { title: "Featured", url: "/" },
         { title: "Partnership", url: "/" },
-        { title: "Bussiness Relation", url: "/" },
+        { title: "Bussiness", url: "/" },
       ],
     },
     {

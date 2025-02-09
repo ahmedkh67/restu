@@ -18,11 +18,11 @@ const Footer = () => {
 
             </div>
 
-            <div className="footer__links flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20">
+            <div className="footer__links flex-1 w-full flex md:justify-between flex-wrap max-md:mt-10 gap-4">
 
                 {footerLinks.map((Linkk) => (
                     <div key={Linkk.title}
-                    className='footer__link flex flex-col gap-6 text-base min-w-[170px]'
+                    className='footer__link flex flex-col gap-2 text-base min-w-[170px] '
                     >
                         <h3 className='font-bold
                         '>{Linkk.title}</h3>
