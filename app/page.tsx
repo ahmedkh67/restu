@@ -1,6 +1,6 @@
 "use client "
 
-import { Commentssec, Distance2, Distancesec, Footer, Mapsec, Menulist, Menusec, Navbar, Teamsec } from "@/Components";
+import { Commentssec, Distance2, Distancesec, Footer, GalleryButton, Mapsec, Menulist, Menusec, MenuSlider, Navbar, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import {Herosec } from "@/Constants";
 import Link from "next/link";
@@ -33,6 +33,8 @@ export default function Home() {
                  
             </div>
         </div>
+        <MenuSlider />
+        <GalleryButton />
         <Moresec />
         <Historysec />
         <Distancesec />

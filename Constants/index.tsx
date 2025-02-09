@@ -178,8 +178,52 @@ export const TeamCardslist = [
         Role:"Market boss",
         src:"",
     },
+    {
+        Name: "2Mark",
+        Role:"Owner",
+        src:"",
+    },
+    {
+        Name: "2Fina Han",
+        Role:"Chef",
+        src:"",
+    },
+    {
+        Name: "2Suzan Ali",
+        Role:"Chef",
+        src:"",
+    },
+    {
+        Name: "2Chin Duong",
+        Role:"Market boss",
+        src:"",
+    },
+    {
+        Name: "3Mark",
+        Role:"Owner",
+        src:"",
+    },
+    {
+        Name: "3Fina Han",
+        Role:"Chef",
+        src:"",
+    },
+    {
+        Name: "3Suzan Ali",
+        Role:"Chef",
+        src:"",
+    },
+    {
+        Name: "3Chin Duong",
+        Role:"Market boss",
+        src:"",
+    },
     
 ]
+
+export const TeamCardsPage1 = TeamCardslist.slice(0,4)
+export const TeamCardsPage2 = TeamCardslist.slice(4,8)
+export const TeamCardsPage3 = TeamCardslist.slice(8,12)
 
 export const lunchmenu1 = [
     {

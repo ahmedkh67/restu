@@ -2,7 +2,7 @@ import React from 'react'
 import TeamCard from './TeamCard'
 import Arrowicon from '@/public/Arrowblack.svg'
 import Image from 'next/image'
-import { TeamCardslist } from '@/Constants'
+import { TeamCardslist, TeamCardsPage2 } from '@/Constants'
 
 const TeamCards = () => {
   return (
@@ -13,7 +13,7 @@ const TeamCards = () => {
         </button>
     </div>
     <div className="flex w-full h-full px-10 pb-14 pt-4 justify-evenly items-start flex-wrap">
-      {TeamCardslist.map((item) => (
+      {TeamCardsPage2.map((item) => (
         <div className="flex my-4">
         <TeamCard Name={item.Name} Role={item.Role} />
         </div>

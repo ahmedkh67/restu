@@ -37,6 +37,7 @@ const page = () => {
     <section id='menumoresec' className='w-full' >
       <MenuSlider />
       <GalleryButton />
+      
     </section>
     
 
@@ -49,11 +50,13 @@ const page = () => {
       <h1 className='md:text-3xl text-xl text-center w-3/4 md:w-1/2'>
         a honored resturant that bulit on passion , love , and consisty , 
       </h1>
-    </div>
-
-    <div className="flex w-full">
+    
       <MenusecsButtons />
     </div>
+
+    
+      
+    
     
     <Lunchmenu />
     <MenuSlider />
