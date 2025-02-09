@@ -280,27 +280,31 @@ export const Menusecsbuttonstitle = [
 
 export const footerLinks = [
     {
-      title: "About",
+      title: "Pages",
       links: [
-        { title: "How it works", url: "/" },
-        { title: "Featured", url: "/" },
-        { title: "Partnership", url: "/" },
-        { title: "Bussiness", url: "/" },
+        { title: "home", url: "/" },
+        { title: "history", url: "/" },
+        { title: "about us", url: "/" },
+        { title: "menu", url: "/" },
+        { title: "gallery", url: "/" },
+        { title: "contacts", url: "/" },
       ],
     },
     {
-      title: "Company",
+      title: "Quick links",
       links: [
-        { title: "Events", url: "/" },
-        { title: "Blog", url: "/" },
-        { title: "Podcast", url: "/" },
-        { title: "Invite a friend", url: "/" },
+        { title: "reservation", url: "/" },       
+        { title: "Lunch menu", url: "/" },
+        { title: "Dinner menu", url: "/" },
+        { title: "Sweet menu", url: "/" },
+        { title: "feedback", url: "/" },
+        { title: "lcations", url: "/" },
       ],
     },
     {
       title: "Socials",
       links: [
-        { title: "Discord", url: "/" },
+        { title: "Whatsapp", url: "/" },
         { title: "Instagram", url: "/" },
         { title: "Twitter", url: "/" },
         { title: "Facebook", url: "/" },
