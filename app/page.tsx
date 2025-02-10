@@ -48,7 +48,7 @@ export default function Home() {
                         </p>
                         <div className="flex ">
                             <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                M
+                                ...
                             </button>
                             <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
                                 Order now                 
@@ -76,7 +76,7 @@ export default function Home() {
                         </p>
                         <div className="flex ">
                             <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                M
+                                ...
                             </button>
                             <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
                                 Order now                 
@@ -94,7 +94,7 @@ export default function Home() {
                         </p>
                         <div className="flex ">
                             <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                M
+                                ...
                             </button>
                             <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
                                 Order now                 
@@ -112,7 +112,7 @@ export default function Home() {
                         </p>
                         <div className="flex ">
                             <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                M
+                                ...
                             </button>
                             <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
                                 Order now                 
@@ -139,7 +139,7 @@ export default function Home() {
                         </p>
                         <div className="flex ">
                             <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                M
+                                ...
                             </button>
                             <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
                                 Order now                 
@@ -157,7 +157,7 @@ export default function Home() {
                         </p>
                         <div className="flex ">
                             <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                M
+                                ...
                             </button>
                             <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
                                 Order now                 
@@ -175,7 +175,7 @@ export default function Home() {
                         </p>
                         <div className="flex ">
                             <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                M
+                                ...
                             </button>
                             <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
                                 Order now                 
