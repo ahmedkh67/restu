@@ -13,7 +13,7 @@ type MoreboxParams = {
 function Morebox ({title , bio , srcs } : MoreboxParams) {
   return (
     <>
-    <div className='flex w-full md:w-[373px] h-[178px] md:h-[138px] bg-white px-4 overflow-hidden justify-center'>
+    <div className='flex w-full md:w-[373px] h-[178px] md:h-[138px]  px-4 overflow-hidden justify-center'>
         <Image src={srcs} alt={'Chef hat icon'} width={80} height={65} />
         <div className="flex w-full flex-col justify-center pl-4">
           <h1 className="text-[33px] md:text-[30px] text-black font-bold serif">
