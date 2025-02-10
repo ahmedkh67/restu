@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <>
-    <motion.div className='md:w-[80%] w-[93%]'
+    <motion.div className='md:w-[80%] w-[92%]'
                         initial={{ opacity: 0, translateY: -50 }}
                         whileInView={{ opacity: 1, translateY: 0 }}
     
