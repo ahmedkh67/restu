@@ -26,8 +26,8 @@ const MenuSlider = () => {
 
   return ( 
     <>
-    <div className="flex w-full justify-center pt-4 flex-col items-center bg-black">
-      <div className="flex w-full justify-between items-center ">
+    <div className="flex w-full justify-center pt-4 flex-col items-center bg-black pb-4">
+      <div className="flex w-full justify-between items-center py-3">
         <h1 className='md:ml-60 ml-4 my-4 md:text-3xl text-xl text-white'>
           take a look?
         </h1>
@@ -39,7 +39,7 @@ const MenuSlider = () => {
       </div>
          
 
-        <div className="flex md:w-full w-full h-50 md:mx-0 mx-0 rounded- justify-center items-center overflow-hidden bg-black">
+        <div className="flex md:w-full w-full h-45 md:mx-0 mx-0 rounded- justify-center items-center overflow-hidden bg-black">
         
 
         
@@ -63,7 +63,7 @@ const MenuSlider = () => {
           disableOnInteraction: false}}
         spaceBetween={0} 
         
-        className="text-white flex h-40 w-full cursor-pointer" >
+        className="text-white flex h-45 w-full cursor-pointer" >
         
         {Type ? Mslider.rated.map((item) => (
           <SwiperSlide className='animate2'>

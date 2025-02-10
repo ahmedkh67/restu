@@ -65,28 +65,28 @@ export const Menusecc = {
 export const Mslider = {
     popular: [
         {
-            src: "/Foodimg.jpg"
+            src: "/Foodimgg.jpg"
         },
         {
-            src: "/Foodimg.jpg"
+            src: "/Foodimgg.jpg"
         },
         {
-            src: "/Foodimg.jpg"
+            src: "/Foodimgg.jpg"
         },
         {
-            src: "/Foodimg.jpg"
+            src: "/Foodimgg.jpg"
         },
         {
-            src: "/Foodimg.jpg"
+            src: "/Foodimgg.jpg"
         },
         {
-            src: "/Foodimg.jpg"
+            src: "/Foodimgg.jpg"
         },
         {
-            src: "/Foodimg.jpg"
+            src: "/Foodimgg.jpg"
         },
         {
-            src: "/Foodimg.jpg"
+            src: "/Foodimgg.jpg"
         },
     ],
     rated: [
@@ -311,4 +311,3 @@ export const footerLinks = [
       ],
     },
   ];
-  
