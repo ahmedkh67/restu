@@ -63,7 +63,7 @@ export default function Home() {
         <MenuSlider />
         <GalleryButton />
         <Moresec />
-        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pr-6 md:pr-0">
+        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pl-6 md:pl-0">
         <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
                         <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-2 Hero_Background">
 
@@ -126,7 +126,7 @@ export default function Home() {
         <Menusec />
         <Menulist /> 
         <Distance2 />
-        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pr-6 md:pr-0">
+        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pl-6 md:pl-0">
         <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
                         <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-2 Hero_Background">
 

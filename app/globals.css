@@ -101,6 +101,7 @@ button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: #000000 0px -90px 50px 50px inset;
 }
 
 .History_Background {
