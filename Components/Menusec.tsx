@@ -2,7 +2,6 @@ import React from 'react'
 import Paragraphsec from './Paragraphsec';
 import { Menusecc } from '@/Constants';
 import MenuContent from './MenuContent';
-import MenuSlider from './MenuSlider';
 
 // made with love should be insert with font family like italiano ,.
 
@@ -18,7 +17,7 @@ const Menusec = () => {
     <div className="flex w-full ">
 
     
-    <MenuSlider />
+    
     </div>
     </>
   )

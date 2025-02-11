@@ -143,9 +143,12 @@ export default function Home() {
         
         <Distancesec />
         <Menusec />
-        <Menulist />
-        <GalleryButton title={"View Menu"} link={'/Menu'} bio={'Our best and tasty deshes waiting for u !'} />
         <Distance2 />
+        <MenuSlider />
+        <Menulist />
+        
+        <GalleryButton title={"View Menu"} link={'/Menu'} bio={'Our best and tasty deshes waiting for u !'} />
+        
         <div className="flex w-full justify-start flex-col items-start bg-gray-200 md:pl-25 pl-6">
       
             <h1 className='md:text-4xl text-2xl text-start font-bold mt-12'>
