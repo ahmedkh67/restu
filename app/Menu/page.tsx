@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import ArrowIcon from '@/public/Arrow2Icon.svg'
-import { Menuhero } from '@/Constants'
+import { Gallerybuttontitle, Menuhero } from '@/Constants'
 
 
 const page = () => {
@@ -36,7 +36,7 @@ const page = () => {
 
     <section id='menumoresec' className='w-full' >
       <MenuSlider />
-      <GalleryButton />
+      <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={'Check our photos taken from the kitchen !'} />
       
     </section>
     
