@@ -101,7 +101,6 @@ button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: #000000 0px -90px 50px 50px inset;
 }
 
 .History_Background {
@@ -118,7 +117,7 @@ button:hover {
   background-size: cover;
 }
 
-.Reservation_Background, .Menu_Background {
+.Reservation_Background, .Menu_Background ,.Comments_Background {
   background-image: url('/hg.jpg');
   background-position: center;
   background-repeat: repeat;
@@ -302,6 +301,13 @@ button:hover {
     transform: translateY(0); 
    }
 }
+@keyframes circleanimate {
+  0% {
+    transform: rotate(0deg);
+  }100% {
+    transform: rotate(360deg) 
+   }
+}
 
 .hg {
 
@@ -309,3 +315,12 @@ button:hover {
   fill: #ffffff;
 }
 
+.circleanimate {
+  animation: circleanimate 20s linear infinite;
+}
+.circleanimate::after {
+  border: yellow 2px dashed;
+  padding: 2px ;
+  width: 2px ;
+  display: flex;
+}

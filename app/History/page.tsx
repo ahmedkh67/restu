@@ -4,6 +4,7 @@ import {Commentssec, Distance2, Distancesec, Footer, Historyline, Mapsec, Menuse
 import Link from "next/link";
 import Image from 'next/image';
 import ArrowIcon from '@/public/Arrow2Icon.svg'
+import Moresec from '@/Components/Moresec';
 
 
 
@@ -30,6 +31,8 @@ const page = () => {
         </button>
         </Link>
     </div>
+
+    <Moresec />
     
     <div className="flex w-full justify-center flex-col items-center">
       
