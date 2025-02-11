@@ -1,7 +1,13 @@
-import { Gallerybuttontitle } from '@/Constants'
 import React from 'react'
 import Link from 'next/link'
-function GalleryButton({title , link, bio }: any ){
+
+type GalleryButtontypes = {
+title: string ,
+link: string | URL ,
+bio: string
+ }
+
+function GalleryButton({title , link, bio }: GalleryButtontypes ){
   return (
     <div className="flex flex-col md:flex-row w-full md:p-6 p-2 pb-6 bg-white justify-center overflow-hidden items-center">
       <Link href={link} className='w-full'>
