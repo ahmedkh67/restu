@@ -48,7 +48,7 @@ const MenuSlider = () => {
         
         modules={[Autoplay, Pagination,Scrollbar]}
         pagination={true} 
-        slidesPerView={2}
+        slidesPerView={3}
         breakpoints={
           {
             800: {
