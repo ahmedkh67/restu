@@ -63,15 +63,15 @@ const MenuSlider = () => {
           disableOnInteraction: false}}
         spaceBetween={0} 
         
-        className="text-white flex h-45 w-full cursor-pointer" >
+        className="text-white flex md:h-45 h-36 w-full cursor-pointer" >
         
         {Type ? Mslider.rated.map((item) => (
-          <SwiperSlide className='animate2'>
+          <SwiperSlide className='animate2 mx-1'>
             <MSliderComponent Src={item.src} />
           </SwiperSlide>
         )) :
         Mslider.popular.map((item) => (
-          <SwiperSlide className='animatte2'>
+          <SwiperSlide className='animatte2 mx-1'>
             <MSliderComponent Src={item.src} />
           </SwiperSlide>
         )) }

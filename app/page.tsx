@@ -2,7 +2,7 @@
 
 import { Commentssec, Distance2, Distancesec, Footer, GalleryButton, Mapsec, Menulist, Menusec, MenuSlider, Navbar, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
-import {Herosec } from "@/Constants";
+import {Gallerybuttontitle, Herosec } from "@/Constants";
 import Link from "next/link";
 import Historysec from "@/Components/Historysec"; 
 
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
         </div>
         <MenuSlider />
-        <GalleryButton />
+        <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={"Check our photos taken from the kitchen !"} />
         <Moresec />
         <div className="flex w-full justify-start flex-col items-start bg-gray-200 md:pl-25 pl-6">
       
@@ -144,6 +144,7 @@ export default function Home() {
         <Distancesec />
         <Menusec />
         <Menulist />
+        <GalleryButton title={"View Menu"} link={'/Menu'} bio={'Our best and tasty deshes waiting for u !'} />
         <Distance2 />
         <div className="flex w-full justify-start flex-col items-start bg-gray-200 md:pl-25 pl-6">
       
@@ -217,6 +218,7 @@ export default function Home() {
                         </div>
                     </div>
         </div>
+
         <Commentssec />
         <Teamsec />
         <Mapsec />
