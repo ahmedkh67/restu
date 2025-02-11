@@ -63,7 +63,7 @@ const MenuSlider = () => {
           disableOnInteraction: false}}
         spaceBetween={0} 
         
-        className="text-white flex md:h-45 h-36 w-full cursor-pointer" >
+        className="text-white flex md:h-45 h-30 w-full cursor-pointer" >
         
         {Type ? Mslider.rated.map((item) => (
           <SwiperSlide className='animate2 mx-1'>
