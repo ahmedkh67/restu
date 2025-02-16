@@ -4,7 +4,7 @@ import CloseIcon from '@/public/Closeicon.svg'
 
 const MenuDialog = () => {
   return (
-    <div className="flex p-6 bg-white flex-col items-center justify-center absolute  z-10 w-96 ">
+    <div className="flex p-6 bg-white flex-col items-center justify-start absolute z-10 w-96 ">
         <div className="flex w-full h-56 bg-black m-5">
         </div>     
 

@@ -12,8 +12,19 @@ import { Commentsecc } from '@/Constants';
 
 const Commentssec = () => {
   return (
+    <>
+      <div className="flex w-full justify-start flex-col items-start bg-gray-200 md:pl-25 pl-6">
+      
+          <h1 className='md:text-4xl text-2xl text-start font-bold mt-12'>
+              Get to know our History
+          </h1>
+          <h1 className='md:text-3xl text-xl text-start w-3/4 md:w-1/2'>
+          a honored resturant that bulit on passion , love , and consisty , 
+          </h1>
+        </div>
     <div className="flex w-full py-20 justify-center items-center Comments_Backgroundd bg-gray-200  md:px-30 px-6">
         
+
         <Swiper
         modules={[Autoplay, Pagination , Scrollbar]}
         pagination={true}
@@ -50,6 +61,7 @@ const Commentssec = () => {
         
         
     </div>
+    </>
   )
 }
 
