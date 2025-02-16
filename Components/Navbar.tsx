@@ -71,7 +71,9 @@ const Navbar = () => {
                   <Tap title={'History'} link={'/History'} />
                   <Tap title={'Our team'} link={'/Team'} />
                 </div>
+                
                 <Tap title={'Menu'} link={'/Menu'} />
+                <Tap title={'Gallery'} link={'/Gallery'} />
                 <Tap title={'Contacts'} link={'/Contacts'} />
             </ul>
             <div className="flex w-full justify-start items-start opacity-90 py-4">

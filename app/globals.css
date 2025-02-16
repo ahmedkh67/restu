@@ -38,7 +38,7 @@
 }
 * {
   scroll-behavior: smooth;
-  cursor: default;
+
 }
 
 body {
@@ -93,6 +93,7 @@ button:hover {
   background-color: #ffffff28;
   width: 80%;
   margin: 32px 0;
+
 }
 
 

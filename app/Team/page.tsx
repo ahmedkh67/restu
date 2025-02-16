@@ -1,9 +1,10 @@
 import React from 'react'
 
-import {Commentssec, Distancesec, Footer, Historysec, Mapsec, Navbar, TeamCards } from "@/Components";
+import {Commentssec, Distancesec, Footer, Historysec, Mapsec, MenuSlider, Navbar, TeamCards, Menusec, GalleryButton,Distance2 } from "@/Components";
 import Link from "next/link";
 import Image from 'next/image';
 import ArrowIcon from '@/public/Arrow2Icon.svg'
+import Moresec from '@/Components/Moresec';
 
 
 
@@ -32,6 +33,7 @@ const page = () => {
         </Link>
     </div>
     
+    <Distancesec />
 
     <div className="flex w-full justify-center flex-col items-center">
       
@@ -44,10 +46,14 @@ const page = () => {
     </div>
 
     <TeamCards />
+    <Moresec />
     <Commentssec />
 
-    <Distancesec/>
     <Historysec />
+    <MenuSlider />
+    <GalleryButton title={'Gallery'} link={'/Gallery'} bio={'Pics of our delecious food !'} />
+    <Menusec />
+    <Distance2 />
     <Mapsec />
     <Footer />
     </>

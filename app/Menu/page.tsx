@@ -6,12 +6,13 @@ import React from 'react'
 import Image from 'next/image'
 import ArrowIcon from '@/public/Arrow2Icon.svg'
 import { Gallerybuttontitle, Menuhero } from '@/Constants'
+import Moresec from '@/Components/Moresec'
 
 
 const page = () => {
   return (
     <>
-    <div className="Team_Background flex w-full bg-black md:h-screen flex-col justify-between items-center overflow-hidden pb-20">
+    <div className="Team_Background flex w-full bg-black  flex-col justify-between items-center overflow-hidden pb-20">
       <Navbar />
       <div className="flex w-full h-full flex-col justify-evenly items-start md:px-[10%]">
         
@@ -19,6 +20,74 @@ const page = () => {
             {Menuhero} 
             
         </h1>
+        <div className="flex w-full ">
+          <div className="flex items-end justify-between w-full">
+
+                      <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl">
+                          <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
+                              <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
+
+                              </div>
+                          </div>
+                          <h1 className="text-2xl font-bold py-1">
+                              Pizza piporine
+                          </h1>
+                          <p className="text-sm mb-1">
+                              Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
+                          </p>
+                          <div className="flex ">
+                              <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
+                                  ...
+                              </button>
+                              <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
+                                  Order now                 
+                              </button>
+                          </div>
+                      </div>
+                      <div className="md:flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl ">
+                          <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
+                              <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
+
+                              </div>
+                          </div>
+                          <h1 className="text-2xl font-bold py-1">
+                              Pizza piporine
+                          </h1>
+                          <p className="text-sm mb-1">
+                              Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
+                          </p>
+                          <div className="flex ">
+                              <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
+                                  ...
+                              </button>
+                              <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
+                                  Order now                 
+                              </button>
+                          </div>
+                      </div>
+                      <div className="md:flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl">
+                          <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
+                              <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
+
+                              </div>
+                          </div>
+                          <h1 className="text-2xl font-bold py-1">
+                              Pizza piporine
+                          </h1>
+                          <p className="text-sm mb-1">
+                              Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
+                          </p>
+                          <div className="flex ">
+                              <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
+                                  ...
+                              </button>
+                              <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
+                                  Order now                 
+                              </button>
+                          </div>
+                      </div>
+        </div>
+      </div>
 
         <h1 className="text-start text-gray-300 md:w-[30%] w-[65%] my-2 pb-6 text-3xl">
             
@@ -65,7 +134,80 @@ const page = () => {
     <Dinnermenu />
 
     <Sweetsmenu />
+    <Moresec />
+    <div className="flex w-full justify-start flex-col items-start bg-gray-200 md:pl-25 pl-6">
+      
+            <h1 className='md:text-4xl text-2xl text-start font-bold mt-12'>
+                Get to know our History
+            </h1>
+            <h1 className='md:text-3xl text-xl text-start w-3/4 md:w-1/2'>
+            a honored resturant that bulit on passion , love , and consisty , 
+            </h1>
+        </div>
+        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pl-6 md:pl-0">
+        <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
+                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
+                            <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
 
+                            </div>
+                        </div>
+                        <h1 className="text-2xl font-bold py-1">
+                            Pizza piporine
+                        </h1>
+                        <p className="text-sm mb-1">
+                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
+                        </p>
+                        <div className="flex ">
+                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
+                                ...
+                            </button>
+                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
+                                Order now                 
+                            </button>
+                        </div>
+                    </div><div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
+                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
+                            <div className="flex w-full h-full rounded-full ">
+
+                            </div>
+                        </div>
+                        <h1 className="text-2xl font-bold py-1">
+                            Pizza piporine
+                        </h1>
+                        <p className="text-sm mb-1">
+                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
+                        </p>
+                        <div className="flex ">
+                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
+                                ...
+                            </button>
+                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
+                                Order now                 
+                            </button>
+                        </div>
+                    </div><div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
+                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
+                            <div className="flex w-full h-full rounded-full  ">
+
+                            </div>
+                        </div>
+                        <h1 className="text-2xl font-bold py-1">
+                            Pizza piporine
+                        </h1>
+                        <p className="text-sm mb-1">
+                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
+                        </p>
+                        <div className="flex ">
+                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
+                                ...
+                            </button>
+                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
+                                Order now                 
+                            </button>
+                        </div>
+                    </div>
+        </div>
+    
     <Commentssec />
     <Mapsec />
     <Footer />
