@@ -1,4 +1,4 @@
-import { Commentssec, Distance2, Distancesec, Footer, GalleryButton, Mapsec, Menusec, MenuSlider, Navbar } from '@/Components'
+import { Commentssec, Distance2, Footer, GalleryButton, Mapsec, Menusec, MenuSlider, Navbar } from '@/Components'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
