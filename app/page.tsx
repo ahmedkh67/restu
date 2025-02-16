@@ -38,7 +38,7 @@ export default function Home() {
 
                     <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl">
                         <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full  ">
+                            <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
 
                             </div>
                         </div>
@@ -161,7 +161,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pl-6 md:pl-0">
         <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
                         <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full  ">
+                            <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
 
                             </div>
                         </div>

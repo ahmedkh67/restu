@@ -103,6 +103,19 @@ button:hover {
   background-size: cover;
 }
 
+.Personb {
+  background-image: url('/Personb.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+  transition: 0.3s;
+  &:hover {
+    filter: grayscale(0);
+
+  }
+}
+
 .History_Background {
   background-image: url('/slider-2.jpg');
   background-position: center;
@@ -308,6 +321,13 @@ button:hover {
     transform: rotate(360deg) 
    }
 }
+@keyframes circleanimate2 {
+  0% {
+    transform: rotate(0deg);
+  }100% {
+    transform: rotate(-360deg) 
+   }
+}
 
 .hg {
 
@@ -317,6 +337,10 @@ button:hover {
 
 .circleanimate {
   animation: circleanimate 20s linear infinite;
+}
+
+.circleanimate2 {
+  animation: circleanimate2 20s linear infinite;
 }
 .circleanimate::after {
   border: yellow 2px dashed;

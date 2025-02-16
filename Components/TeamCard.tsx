@@ -15,7 +15,7 @@ type TeamCardTypes = {
 function TeamCard({Name , Role}: TeamCardTypes ){
   return (
     <div className="flex w-64 h-80 bg-gray-300 rounded-3xl flex-col overflow-hidden">
-        <div className="flex w-full h-full bg-black">
+        <div className="flex w-full h-full bg-black Personb">
 
         </div>
         <div className="flex w-full h-1/2 flex-col justify-evenly items-start p-3 ">
