@@ -1,5 +1,4 @@
-import { Distance2, MenuSlider, Navbar } from '@/Components'
-import Moresec from '@/Components/Moresec'
+import { MenuSlider, Navbar } from '@/Components'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
