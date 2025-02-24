@@ -311,3 +311,11 @@ export const footerLinks = [
       ],
     },
   ];
+
+
+export const offerCard = {
+    title: "Pizza piporine",
+    bio: "Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk ",
+    src: "",
+    btntitle: "Order Now"
+}

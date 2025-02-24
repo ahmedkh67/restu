@@ -247,6 +247,34 @@ button:hover {
     @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
   }
   /* END: Footer styles */
+
+
+
+
+  .OfferCard_Container {
+    @apply flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl ;
+  }
+  .OfferCard_Border {
+    @apply flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 ; 
+  }
+  .OfferCard_Image {
+    @apply flex w-full h-full rounded-full ;
+  }
+  .OfferCard_title {
+    @apply text-2xl font-bold py-1 ;
+  }
+  .OfferCard_bio {
+    @apply text-sm mb-1 ;
+  }
+  .OfferButtons_Container {
+    @apply flex ;
+  }
+  .OfferMore_Button {
+    @apply w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white ;
+  }
+  .OfferOrder_Button {
+    @apply w-full mx-0.5 bg-red-400 h-10 text-lg text-white ;
+  }
 }
 
 

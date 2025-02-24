@@ -1,10 +1,11 @@
 "use client "
 
-import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, Teamsec } from "@/Components";
+import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, OfferCard, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import {Gallerybuttontitle, Herosec } from "@/Constants";
 import Link from "next/link";
 import Historysec from "@/Components/Historysec"; 
+import { offerCard } from "@/Constants";
 
 
 export default function Home() {
@@ -36,29 +37,10 @@ export default function Home() {
                  </div>
                  <div className="flex items-end justify-center">
 
-                    <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl">
-                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
-
-                            </div>
-                        </div>
-                        <h1 className="text-2xl font-bold py-1">
-                            Pizza piporine
-                        </h1>
-                        <p className="text-sm mb-1">
-                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                        </p>
-                        <div className="flex ">
-                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                ...
-                            </button>
-                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                Order now                 
-                            </button>
-                        </div>
-                    </div>
+                    <OfferCard title={offerCard.title} bio={offerCard.bio}
+                     btntitle={offerCard.btntitle} />
                  </div>
-                    
+                
                  
             </div>
         </div>
@@ -76,71 +58,18 @@ export default function Home() {
         </div>
         <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pl-6 md:pl-0">
             
-        <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
-                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full  ">
+            <OfferCard title={offerCard.title} bio={offerCard.bio}
+            btntitle={offerCard.btntitle} />
 
-                            </div>
-                        </div>
-                        <h1 className="text-2xl font-bold py-1">
-                            Pizza piporine
-                        </h1>
-                        <p className="text-sm mb-1">
-                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                        </p>
-                        <div className="flex ">
-                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                ...
-                            </button>
-                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                Order now                 
-                            </button>
-                        </div>
-                    </div><div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
-                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full  ">
+            <OfferCard title={offerCard.title} bio={offerCard.bio}
+            btntitle={offerCard.btntitle} />
 
-                            </div>
-                        </div>
-
-                        <h1 className="text-2xl font-bold py-1">
-                            Pizza piporine
-                        </h1>
-                        <p className="text-sm mb-1">
-                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                        </p>
-                        <div className="flex ">
-                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                ...
-                            </button>
-                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                Order now                 
-                            </button>
-                        </div>
-                    </div><div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
-                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full  ">
-
-                            </div>
-                        </div>
-                        <h1 className="text-2xl font-bold py-1">
-                            Pizza piporine
-                        </h1>
-                        <p className="text-sm mb-1">
-                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                        </p>
-                        <div className="flex ">
-                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                ...
-                            </button>
-                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                Order now                 
-                            </button>
-                        </div>
-                    </div>
+            <OfferCard title={offerCard.title} bio={offerCard.bio}
+            btntitle={offerCard.btntitle} />
         </div>
+
         <Historysec />
-        
+       
         <Distancesec />
         <Menusec />
         <Distance2 />
@@ -158,68 +87,17 @@ export default function Home() {
             a honored resturant that bulit on passion , love , and consisty , 
             </h1>
         </div>
+        
         <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pl-6 md:pl-0">
-        <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
-                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
+            
+            <OfferCard title={offerCard.title} bio={offerCard.bio}
+            btntitle={offerCard.btntitle} />
 
-                            </div>
-                        </div>
-                        <h1 className="text-2xl font-bold py-1">
-                            Pizza piporine
-                        </h1>
-                        <p className="text-sm mb-1">
-                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                        </p>
-                        <div className="flex ">
-                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                ...
-                            </button>
-                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                Order now                 
-                            </button>
-                        </div>
-                    </div><div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
-                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full ">
+            <OfferCard title={offerCard.title} bio={offerCard.bio}
+            btntitle={offerCard.btntitle} />
 
-                            </div>
-                        </div>
-                        <h1 className="text-2xl font-bold py-1">
-                            Pizza piporine
-                        </h1>
-                        <p className="text-sm mb-1">
-                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                        </p>
-                        <div className="flex ">
-                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                ...
-                            </button>
-                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                Order now                 
-                            </button>
-                        </div>
-                    </div><div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-4">
-                        <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                            <div className="flex w-full h-full rounded-full  ">
-
-                            </div>
-                        </div>
-                        <h1 className="text-2xl font-bold py-1">
-                            Pizza piporine
-                        </h1>
-                        <p className="text-sm mb-1">
-                            Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                        </p>
-                        <div className="flex ">
-                            <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                ...
-                            </button>
-                            <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                Order now                 
-                            </button>
-                        </div>
-                    </div>
+            <OfferCard title={offerCard.title} bio={offerCard.bio}
+            btntitle={offerCard.btntitle} />
         </div>
 
         <Commentssec />
