@@ -53,8 +53,7 @@ const page = () => {
       <Menusec />
       <Distance2 />
       <Commentssec />
-      <Mapsec />
-      <Footer />
+      
     
     
     </>

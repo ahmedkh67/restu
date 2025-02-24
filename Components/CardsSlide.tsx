@@ -25,7 +25,7 @@ import { TeamCardslist } from '@/Constants';
     whileInView={{ opacity: 1, scale: 1}}
     
     >
-    <div className="flex w-64 h-80 rounded-3xl flex-col overflow-hidden mb-6">
+    <div className="flex w-64 h-80 rounded-xl flex-col overflow-hidden mb-6">
       <Swiper
         effect={'cards'}
         grabCursor={true}

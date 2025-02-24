@@ -224,11 +224,7 @@ export default function Home() {
 
         <Commentssec />
         <Teamsec />
-        <Mapsec />
-        <Footer />
-        
-        
-        
+
         </>
     )
 }

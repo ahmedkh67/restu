@@ -23,7 +23,7 @@ const page = () => {
         <div className="flex w-full ">
           <div className="flex items-end md:justify-between justify-center w-full">
 
-                      <div className="flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl">
+                      <div className="flex flex-col w-80 h-90 bg-white  p-4 px-6 rounded-xl">
                           <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
                               <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
 
@@ -209,8 +209,7 @@ const page = () => {
         </div>
     
     <Commentssec />
-    <Mapsec />
-    <Footer />
+    
   
   </>
   )

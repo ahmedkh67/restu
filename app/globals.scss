@@ -30,6 +30,13 @@
 
 }
 
+$bgcolor: black ;
+$bgcolor2: red ;
+
+.syarah {
+  background-color: $bgcolor;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: white;
@@ -98,7 +105,7 @@ button:hover {
 
 
 .Hero_Background {
-  background-image: url('/slider-1.jpg');
+  background-image: url('/amaya-food-gallery.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

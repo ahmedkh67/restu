@@ -32,6 +32,7 @@ import Dinnermenu from "./Dinnermenu";
 import Sweetsmenu from "./Sweetsmenu";
 import GalleryButton from "./GalleryButton";
 import MenusecsButtons from "./MenusecsButtons";
+import OfferCard from "./OfferCard";
 
 
 
@@ -70,5 +71,6 @@ export {
     Sweetsmenu,
     GalleryButton,
     MenusecsButtons,
+    OfferCard,
 
 }

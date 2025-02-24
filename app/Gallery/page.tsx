@@ -95,8 +95,7 @@ const Gallery = () => {
     <Commentssec />
     <Menusec />
     <Distance2 />
-    <Mapsec />
-    <Footer />
+    
     </>
   )
 }

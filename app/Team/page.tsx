@@ -54,8 +54,7 @@ const page = () => {
     <GalleryButton title={'Gallery'} link={'/Gallery'} bio={'Pics of our delecious food !'} />
     <Menusec />
     <Distance2 />
-    <Mapsec />
-    <Footer />
+    
     </>
   )
 }

@@ -14,7 +14,7 @@ type TeamCardTypes = {
 
 function TeamCard({Name , Role}: TeamCardTypes ){
   return (
-    <div className="flex w-64 h-80 bg-gray-300 rounded-3xl flex-col overflow-hidden">
+    <div className="flex w-64 h-80 bg-gray-200 rounded-xl flex-col overflow-hidden">
         <div className="flex w-full h-full bg-black Personb">
 
         </div>
@@ -38,9 +38,7 @@ function TeamCard({Name , Role}: TeamCardTypes ){
                     <Image src={Linkedicon} alt={'icon '} width={30} className='mx-2 hg'/>
                     
                 </div>
-                <div className="flex py-2 bg-black rounded-2xl w-1/4 justify-center transition-[0.1s] hover:w-1/2 pointer ">
-                    <Image src={Arrow} alt={'go arrow'} width={20} className='pointer' />
-                </div>
+                
             </div>
             
         </div>

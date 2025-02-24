@@ -20,8 +20,7 @@ const page = () => {
       
  
     </div>
-      <Mapsec />
-      <Footer />
+      
     </>
   )
 }
