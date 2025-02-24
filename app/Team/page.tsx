@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Commentssec, Distancesec, Footer, Historysec, Mapsec, MenuSlider, Navbar, TeamCards, Menusec, GalleryButton,Distance2 } from "@/Components";
+import {Commentssec, Distancesec, Historysec, MenuSlider, Navbar, TeamCards, Menusec, GalleryButton,Distance2 } from "@/Components";
 import Link from "next/link";
 import Image from 'next/image';
 import ArrowIcon from '@/public/Arrow2Icon.svg'

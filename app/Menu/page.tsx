@@ -1,6 +1,6 @@
 "use client"
 
-import { Commentssec, Footer, Mapsec, MenuSlider, Navbar,Distance2, GalleryButton, MenusecsButtons, Lunchmenu, Dinnermenu, Sweetsmenu } from '@/Components'
+import { Commentssec, MenuSlider, Navbar,Distance2, GalleryButton, MenusecsButtons, Lunchmenu, Dinnermenu, Sweetsmenu } from '@/Components'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'

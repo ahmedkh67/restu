@@ -1,6 +1,6 @@
 "use client"
 
-import { Footer, Mapsec, Navbar,Reservationbox } from '@/Components'
+import { Navbar,Reservationbox } from '@/Components'
 import React from 'react'
 import { motion } from 'framer-motion'
 
