@@ -2,7 +2,11 @@ import React from 'react'
 import Image from 'next/image';
 import Img1 from '@/public/Foodimg.jpg'
 
-function MSliderComponent(Src : string){
+type Mslidertype = {
+  Src : string | any
+}
+
+function MSliderComponent({ Src }: Mslidertype){
 
   return (
     <div className="FoodImg ">
