@@ -1,12 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-
-
-type Taptypes = {
-    title : string ,
-    link : string,
-}
-
+import { Taptypes } from '@/types';
 
 function Tap ({title, link} : Taptypes) {
 

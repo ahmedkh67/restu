@@ -5,6 +5,15 @@
   --color-foreground: var(--foreground);
 }
 
+
+/*
+$Primarycolor: ;
+$Secondarycolor: ;
+$Thirdlycolor: ;
+*/
+
+
+
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
@@ -30,12 +39,6 @@
 
 }
 
-$bgcolor: black ;
-$bgcolor2: red ;
-
-.syarah {
-  background-color: $bgcolor;
-}
 
 @media (prefers-color-scheme: dark) {
   :root {

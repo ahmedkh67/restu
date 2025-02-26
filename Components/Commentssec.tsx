@@ -9,6 +9,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Commentsecc } from '@/Constants';
+import Image from 'next/image';
+import WriteIcon from '@/public/Writeicon.svg'
 
 const Commentssec = () => {
   return (
@@ -22,7 +24,7 @@ const Commentssec = () => {
           a honored resturant that bulit on passion , love , and consisty , 
           </h1>
         </div>
-    <div className="flex w-full py-20 justify-center items-center Comments_Backgroundd bg-gray-200  md:px-30 px-6">
+    <div className="flex w-full py-20 justify-center items-center Comments_Backgroundd bg-gray-200  md:px-30 px-6 ">
         
 
         <Swiper
@@ -57,10 +59,16 @@ const Commentssec = () => {
 
 
         </Swiper>
-        
+
         
         
     </div>
+    {/*          writebutton vvvv 
+    <div className="flex w-30 h-30 bg-black rounded-lg justify-center items-center">
+          <Image src={WriteIcon} alt={'writeicon'} width={30} height={30} />
+        </div>
+    */}
+    
     </>
   )
 }

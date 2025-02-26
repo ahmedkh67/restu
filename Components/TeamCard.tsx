@@ -6,11 +6,7 @@ import Emailicon from '@/public/Email Icon.svg'
 import Insticon from '@/public/instagram-svgrepo-com (1).svg'
 import Whatsicon from '@/public/whatsapp-128-svgrepo-com.svg'
 import Linkedicon from '@/public/Linked in Icon.svg'
-
-type TeamCardTypes = {
-    Name : string ,
-    Role : string ,
-}
+import { TeamCardTypes } from '@/types'
 
 function TeamCard({Name , Role}: TeamCardTypes ){
   return (

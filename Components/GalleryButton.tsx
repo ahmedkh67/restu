@@ -1,11 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-
-type GalleryButtontypes = {
-title: string ,
-link: string | URL ,
-bio: string
- }
+import { GalleryButtontypes } from '@/types';
 
 function GalleryButton({title , link, bio }: GalleryButtontypes ){
   return (

@@ -3,12 +3,8 @@ import Chefhat from '@/public/Chef hat Icon.svg'
 import Foodplate from '@/public/Food plate Icon.svg'
 import CoffeCup from '@/public/Cup Icon.svg'
 import Image from 'next/image'
+import { MoreboxParams } from '@/types'
 
-type MoreboxParams = {
-  title : string ,
-  bio : string , 
-  srcs : string
-}
 
 function Morebox ({title , bio , srcs } : MoreboxParams) {
   return (

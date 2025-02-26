@@ -2,13 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Chefhat from '@/public/Chef hat Icon.svg'
 import { motion } from "framer-motion"; 
+import { NumBoxesTypes } from '@/types';
 
-
-type NumBoxesTypes = {
-  Num : string | number ,
-  Dis : string ,
-  Src : string ,
-}
 
 
 function Numbox({Num , Dis , Src }: NumBoxesTypes){

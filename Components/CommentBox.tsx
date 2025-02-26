@@ -1,13 +1,8 @@
 import React from 'react'
 import Star from '@/public/staricon.svg'
 import Image from 'next/image'
+import { CommentsecTypes } from '@/types';
 
-type CommentsecTypes = {
-  name: string ,
-  rate: number ,
-  comment: string ,
-  src: string
-}
 
 function CommentBox ({name,rate, comment, src } : CommentsecTypes ){
   return (

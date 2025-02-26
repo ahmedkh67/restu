@@ -12,7 +12,10 @@ export default function Home() {
    
     return (
         <>
-        <div className="Hero_Background flex w-full bg-black md:h-screen h-full flex-col justify-between items-center overflow-hidden pb-20">
+    <div className="flex w-full h-full justify-center items-center pt-10">
+
+        
+        <div className="Hero_Background flex w-[92%] rounded-lg bg-black md:h-screen h-full flex-col justify-between items-center overflow-hidden pb-20">
             
             <Navbar />
             <div className="flex w-full h-full md:flex-row flex-col-reverse justify-evenly items-start md:px-[10%] px-[4%]">
@@ -23,7 +26,7 @@ export default function Home() {
             
                 <h1 className="text-start text-2xl text-gray-300 md:w-[70%] w-[80%] my-2 pb-6 upanimate2">
                     {Herosec.Hero_Dis}
-                </h1>
+                </h1> 
                 <h1 className="text-start text-2xl text-gray-300 md:w-[70%] hidden md:flex w-[80%] my-2 pb-6 upanimate2">
                     {Herosec.Hero_Dis}
                 </h1>
@@ -44,6 +47,7 @@ export default function Home() {
                  
             </div>
         </div>
+    </div>
         <MenuSlider />
         <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={"Check our photos taken from the kitchen !"} />
         <Moresec />

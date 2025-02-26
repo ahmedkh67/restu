@@ -4,16 +4,9 @@
 import { Url } from 'next/dist/shared/lib/router/router';
 import React from 'react'
 import { motion } from "framer-motion"; 
+import { Paragraphsecparams } from '@/types';
 
 // nake a variable for text sizes in paragraph sextion . 
-
-type Paragraphsecparams = {
-    title :string , 
-    dis: string , 
-    dis2: string , 
-   button_title: string , 
-    Url?: string
-}
 
 function Paragraphsec( {title, dis , dis2 , button_title , Url } : Paragraphsecparams ) {
   return (

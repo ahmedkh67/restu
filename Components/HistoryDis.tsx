@@ -3,10 +3,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 
-type distype = {
-diss : string
-}
-function HistoryDis(diss : distype) {
+function HistoryDis() {
   return (
     <motion.div className=''
     initial={{ opacity: 0, scale: 0 }}
