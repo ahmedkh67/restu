@@ -7,8 +7,8 @@ type Offersparams = {
 
 function Offers({linkk}: Offersparams){
   return (
-    <Link href={linkk} className="w-full flex justify-center items-center " >
-        <div className="flex Hero_Background h-64 w-[94%] md:w-[92%] my-2 md:my-4 rounded-lg ">
+    <Link href={linkk} className="w-[94%] md:w-[92%] flex justify-center items-center " >
+        <div className="flex Hero_Background h-64 w-full my-2 md:my-4 rounded-lg ">
 
         </div>
     </Link>
