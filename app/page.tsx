@@ -1,6 +1,6 @@
 "use client "
 
-import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, OfferCard, Teamsec } from "@/Components";
+import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, OfferCard, Offers, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import {Gallerybuttontitle, Herosec } from "@/Constants";
 import Link from "next/link";
@@ -15,7 +15,7 @@ export default function Home() {
     <div className="flex w-full h-full justify-center items-center pt-10">
 
         
-        <div className="Hero_Background flex w-[92%] rounded-lg bg-black md:h-screen h-full flex-col justify-between items-center overflow-hidden pb-20">
+        <div className="Hero_Background flex md:w-[92%] w-full rounded-lg bg-black md:h-screen h-full flex-col justify-between items-center overflow-hidden pb-20">
             
             <Navbar />
             <div className="flex w-full h-full md:flex-row flex-col-reverse justify-evenly items-start md:px-[10%] px-[4%]">
@@ -48,6 +48,9 @@ export default function Home() {
             </div>
         </div>
     </div>
+            <Offers linkk={"/Menu"} />
+            <Offers linkk={"/Gallery"} />
+        
         <MenuSlider />
         <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={"Check our photos taken from the kitchen !"} />
         <Moresec />

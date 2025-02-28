@@ -13,7 +13,7 @@ const MenusecsButtons = () => {
           </div>
         </div>
       </Link>
-
+      
       <Link href={'#dinnermenu'} className='w-full mx-2'>
         <div className="flex w-full md:h-40 h-23  m-1 rounded-2xl bg-blue-300 p-3 pointer">
           <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid px-6

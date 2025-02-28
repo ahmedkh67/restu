@@ -12,7 +12,7 @@ import Moresec from '@/Components/Moresec'
 const page = () => {
   return (
     <>
-    <div className="Team_Background flex w-full bg-black  flex-col justify-between items-center overflow-hidden pb-20">
+    <div className="Team_Background flex w-full bg-black flex-col justify-between items-center overflow-hidden pb-20">
       <Navbar />
       <div className="flex w-full h-full flex-col justify-evenly items-start md:px-[10%]">
         
