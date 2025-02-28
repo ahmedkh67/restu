@@ -12,10 +12,10 @@ export default function Home() {
    
     return (
         <>
-    <div className="flex w-full h-full justify-center items-center pt-10">
+    <div className="flex w-full h-full justify-center items-center md:pt-10">
 
         
-        <div className="Hero_Background flex md:w-[92%] w-full rounded-lg bg-black md:h-screen h-full flex-col justify-between items-center overflow-hidden pb-20">
+        <div className="Hero_Background flex md:w-[92%] w-full md:rounded-lg bg-black md:h-screen h-full flex-col justify-between items-center overflow-hidden pb-20">
             
             <Navbar />
             <div className="flex w-full h-full md:flex-row flex-col-reverse justify-evenly items-start md:px-[10%] px-[4%]">
