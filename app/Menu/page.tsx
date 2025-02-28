@@ -1,11 +1,11 @@
 "use client"
 
-import { Commentssec, MenuSlider, Navbar,Distance2, GalleryButton, MenusecsButtons, Lunchmenu, Dinnermenu, Sweetsmenu } from '@/Components'
+import { Commentssec, MenuSlider, Navbar,Distance2, GalleryButton, MenusecsButtons, Lunchmenu, Dinnermenu, Sweetsmenu, OfferCard } from '@/Components'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import ArrowIcon from '@/public/Arrow2Icon.svg'
-import { Gallerybuttontitle, Menuhero } from '@/Constants'
+import { Gallerybuttontitle, Menuhero, offerCard } from '@/Constants'
 import Moresec from '@/Components/Moresec'
 
 
