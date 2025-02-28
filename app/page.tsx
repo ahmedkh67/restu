@@ -48,8 +48,11 @@ export default function Home() {
             </div>
         </div>
     </div>
-            <Offers linkk={"/Menu"} />
-            <Offers linkk={"/Gallery"} />
+    <div className="flex flex-col justify-center items-center w-full">
+        <Offers linkk={"/Menu"} />
+        <Offers linkk={"/Gallery"} />
+    </div>
+            
         
         <MenuSlider />
         <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={"Check our photos taken from the kitchen !"} />
