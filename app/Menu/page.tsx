@@ -16,76 +16,25 @@ const page = () => {
       <Navbar />
       <div className="flex w-full h-full flex-col justify-evenly items-start md:px-[10%]">
         
-        <h1 className="md:text-[170px] text-[60px] font-bold text-white">
+        <h1 className="md:text-[170px] text-[60px] font-bold text-white px-[10%]">
             {Menuhero} 
             
         </h1>
         <div className="flex w-full ">
           <div className="flex items-end md:justify-between justify-center w-full">
 
-                      <div className="flex flex-col w-80 h-90 bg-white  p-4 px-6 rounded-xl">
-                          <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                              <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
+              <OfferCard title={offerCard.title} bio={offerCard.bio}
+              btntitle={offerCard.btntitle} />
 
-                              </div>
-                          </div>
-                          <h1 className="text-2xl font-bold py-1">
-                              Pizza piporine
-                          </h1>
-                          <p className="text-sm mb-1">
-                              Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                          </p>
-                          <div className="flex ">
-                              <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                  ...
-                              </button>
-                              <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                  Order now                 
-                              </button>
-                          </div>
-                      </div>
-                      <div className="md:flex hidden flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl ">
-                          <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                              <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
-
-                              </div>
-                          </div>
-                          <h1 className="text-2xl font-bold py-1">
-                              Pizza piporine
-                          </h1>
-                          <p className="text-sm mb-1">
-                              Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                          </p>
-                          <div className="flex ">
-                              <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                  ...
-                              </button>
-                              <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                  Order now                 
-                              </button>
-                          </div>
-                      </div>
-                      <div className="md:flex hidden flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl">
-                          <div className="flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 circleanimate">
-                              <div className="flex w-full h-full rounded-full circleanimate2 Hero_Background ">
-
-                              </div>
-                          </div>
-                          <h1 className="text-2xl font-bold py-1">
-                              Pizza piporine
-                          </h1>
-                          <p className="text-sm mb-1">
-                              Pizza piporine juoiejwodflswko keowkroewkr ekworkewopk 
-                          </p>
-                          <div className="flex ">
-                              <button className="w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white">
-                                  ...
-                              </button>
-                              <button className="w-full mx-0.5 bg-red-400 h-10 text-lg text-white">
-                                  Order now                 
-                              </button>
-                          </div>
-                      </div>
+              <div className="md:flex hidden ">
+              <OfferCard title={offerCard.title} bio={offerCard.bio}
+              btntitle={offerCard.btntitle} />
+              </div>
+              <div className="md:flex hidden ">
+              <OfferCard title={offerCard.title} bio={offerCard.bio}
+              btntitle={offerCard.btntitle} />
+              </div>
+                          
         </div>
       </div>
 
@@ -94,12 +43,6 @@ const page = () => {
         </h1>
         
       </div>
-
-      <Link href={"#menumoresec"}>
-        <button className="Button1 md:text-3xl text-4xl px-2 py-0.5 mt-[-7px] rounded-xl">
-          <Image src={ArrowIcon} alt={'down arrow icon'} width={45} className='rotate-90 pointer ' />
-        </button>
-      </Link>
     </div>
 
 

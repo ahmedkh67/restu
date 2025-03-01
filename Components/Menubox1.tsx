@@ -11,7 +11,7 @@ const Menubox1 = () => {
         <>
         <div className="flex flex-col justify-between items-center h-full w-full">
           
-        <div className="MenuCellsContainer flex w-full h-full bg-[rgb(223,223,223)] my-5 flex-col justify-center items-center p-4">
+        <div className="MenuCellsContainer flex w-full h-full bg-[rgb(223,223,223)] md:my-5 flex-col justify-center items-center p-4">
           {lunchmenu1.map((item) => (
               <div className="flex w-full h-30  p-4 items-center transition-[0.3s] hover:bg-white active:bg-white rounded-3xl ">
                 
