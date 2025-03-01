@@ -5,7 +5,6 @@ const Mapsec = () => {
 
   const [addr , setAddr ] = useState(["Medinah city","Riyadh city", "Jeddah city", "Abha city "])
   
-  const handleAddrChange = (e) => 
 
   return (
     <>
