@@ -15,7 +15,7 @@ const MenusecsButtons = () => {
       </Link>
       
       <Link href={'#dinnermenu'} className='w-full flex justify-center items-center mx-2'>
-        <div className="flex w-full md:h-40 h-23  m-1 rounded-2xl bg-blue-300 p-3 pointer">
+        <div className="flex w-full md:h-40 h-23  m-1 rounded-2xl bg-red-300 p-3 pointer">
           <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid px-6
             justify-center items-center text-2xl font-bold text-white ">
             {Menusecsbuttonstitle[1].title}
@@ -24,7 +24,7 @@ const MenusecsButtons = () => {
       </Link>
 
       <Link href={'#sweetsmenu'} className='w-full flex justify-center items-center mx-2'>
-        <div className="flex w-full md:h-40 h-23 m-1 rounded-2xl bg-amber-300 p-3 pointer">
+        <div className="flex w-full md:h-40 h-23 m-1 rounded-2xl bg-red-300 p-3 pointer">
           <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid px-6
             justify-center items-center text-2xl font-bold text-white ">
             {Menusecsbuttonstitle[2].title}

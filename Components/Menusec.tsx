@@ -11,13 +11,11 @@ const Menusec = () => {
     <div className="flex flex-col md:flex-row w-full py-11 justify-center items-center md:px-48 md:h-[450px] my-16 bg-white">
       <MenuContent />
       <Paragraphsec title={Menusecc.Menusec_title} dis={Menusecc.Menusec_Dis} 
-      dis2={Menusecc.Menusec_Dis2} button_title={Menusecc.Menusec_Button} />
+      dis2={Menusecc.Menusec_Dis2} button_title={Menusecc.Menusec_Button} Url={'/Menu'} />
 
     </div>
     <div className="flex w-full ">
 
-    
-    
     </div>
     </>
   )

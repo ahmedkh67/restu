@@ -83,7 +83,7 @@ const Gallery = () => {
       
       </div>
       <div className="flex flex-col md:flex-row w-full my-10 md:p-6 p-2 pb-6 bg-white justify-center overflow-hidden items-center">
-        <button className='bg-black text-white w-1/2 py-2 pointer rounded-xl'>
+        <button className='bg-black text-white w-1/2 p-2 pointer rounded-xl'>
         <p className='text-center md:text-6xl text-3xl font-bold pointer '>
             Show more        
           </p>

@@ -48,7 +48,7 @@ export default function Home() {
             </div>
         </div>
     </div>
-    <div className="flex flex-col md:flex-row justify-between items-center w-full md:px-[4%]">
+    <div className="flex flex-col md:flex-row justify-between items-center w-full md:px-[4%] md:gap-1">
         <Offers linkk={"/Menu"} />
         <Offers linkk={"/Gallery"} />
     </div>

@@ -16,7 +16,7 @@ const Moresec = () => {
          <motion.div className=''
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
-
+            
             >
         <Morebox title={item.MoreBoxtitle} 
         bio={item.MoreBoxbio} srcs={item.MoreBoxsrc} />

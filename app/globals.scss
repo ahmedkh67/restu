@@ -273,7 +273,7 @@ button:hover {
     @apply flex ;
   }
   .OfferMore_Button {
-    @apply w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white ;
+    @apply w-1/4 mx-0.5 bg-amber-300 h-10 text-lg text-white p-1 ;
   }
   .OfferOrder_Button {
     @apply w-full mx-0.5 bg-red-400 h-10 text-lg text-white ;
