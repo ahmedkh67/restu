@@ -1,6 +1,12 @@
 import React from 'react'
+import { useState } from 'react'
 
 const Mapsec = () => {
+
+  const [addr , setAddr ] = useState(["Medinah city","Riyadh city", "Jeddah city", "Abha city "])
+  
+  const handleAddrChange = (e) => 
+
   return (
     <>
     <div className="flex w-full justify-center flex-col items-center mb-12">
