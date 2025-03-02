@@ -12,6 +12,7 @@ import Emailicon from '@/public/Email Icon.svg'
 import Insticon from '@/public/instagram-svgrepo-com (1).svg'
 import Whatsicon from '@/public/whatsapp-128-svgrepo-com.svg'
 import Linkedicon from '@/public/Linked in Icon.svg'
+import LanguageIcon from '@/public/languageIcon.svg'
 import { motion } from "framer-motion"; 
 
 
@@ -36,7 +37,12 @@ const Navbar = () => {
         {Logoname}
 
       </h1>
-      <Image src={logo} alt={'logoimag'} width={60} height={90} className='Menu_Icon' onClick={() => {setopen(!open)}} />
+      <div className="flex">
+        <Image src={logo} alt={LanguageIcon} width={60} height={90} />
+
+        <Image src={logo} alt={'logoimag'} width={60} height={90} className='Menu_Icon' onClick={() => {setopen(!open)}} />
+        
+      </div>
 
     </div>
     <div className={`flex w-full md:w-1/3 h-full bg-white absolute top-0 right-0 fixed z-20 px-6 flex-col md:pt-0 pt-6

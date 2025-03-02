@@ -1,8 +1,7 @@
 import { OfferCardParams } from '@/types';
 import React from 'react'
 import Shareicon from '@/public/ShareIcon.svg'
-import Image from 'next/image'
-
+import Image from 'next/image';
 
 
 function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
@@ -22,15 +21,14 @@ function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
                 {bio}            </p>
             <div className="OfferButtons_Container">
                 <button className="OfferMore_Button flex justify-center items-center">
-                    <Image src={Shareicon} width={20} height={20} alt={'share icon'} />
-
+                    <Image src={Shareicon} alt={'Shareicon for card'} width={20} height={20} />
                 </button>
                 <button className="OfferOrder_Button">
                     {btntitle}                 
                 </button>
             </div>
         </div>
-
+        
     </>
   )
 }
