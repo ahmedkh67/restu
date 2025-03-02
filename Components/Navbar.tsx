@@ -38,7 +38,7 @@ const Navbar = () => {
 
       </h1>
       <div className="flex">
-        <Image src={logo} alt={LanguageIcon} width={60} height={90} />
+        <Image src={LanguageIcon} alt={'LanguageIcon'} width={60} height={90} />
 
         <Image src={logo} alt={'logoimag'} width={60} height={90} className='Menu_Icon' onClick={() => {setopen(!open)}} />
         

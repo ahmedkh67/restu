@@ -21,14 +21,14 @@ function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
                 {bio}            </p>
             <div className="OfferButtons_Container">
                 <button className="OfferMore_Button flex justify-center items-center">
-                    <Image src={Shareicon} alt={'Shareicon for card'} width={20} height={20} />
+                    <Image src={Shareicon} alt={'Shareicon for card'} width={30} height={30} />
                 </button>
                 <button className="OfferOrder_Button">
                     {btntitle}                 
                 </button>
             </div>
         </div>
-        
+
     </>
   )
 }
