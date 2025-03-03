@@ -10,7 +10,6 @@ import Image from "next/image";
 import HomeIcon from '@/public/homeIcon.svg'
 import AboutIcon from '@/public/aboutIcon.svg'
 import MenuIconn from '@/public/menu3Icon.svg'
-import ReserveIcon from '@/public/writeIcon.svg'
 
 
 export default function Home() {
@@ -121,7 +120,7 @@ export default function Home() {
             <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
             <Image src={AboutIcon} alt={"home icon "} width={30} height={30} />
             <Image src={MenuIconn} alt={"home icon "} width={30} height={30} />
-            <Image src={ReserveIcon} alt={"home icon "} width={30} height={30} />
+            <Image src={MenuIconn} alt={"home icon "} width={30} height={30} />
         </div>
         </>
     )
