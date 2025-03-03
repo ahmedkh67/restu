@@ -319,3 +319,13 @@ export const offerCard = {
     src: "",
     btntitle: "Order Now"
 }
+
+
+export const Maps = {
+    
+    Medinah: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14524.673703101556!2d39.6103803!3d24.4796205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbf2a3f8fe8a3%3A0xe0cb8d99e746cfca!2sZAHA%20TAIBA%20HOTEL!5e0!3m2!1sar!2ssa!4v1737365957570!5m2!1sar!2ssa" ,
+    Riyadh: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7244.186877962948!2d46.629244859713644!3d24.79225377653852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2ssa!4v1741005258320!5m2!1sar!2ssa" ,
+    Jeddah: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2746.5262918365215!2d39.15883625296607!3d21.53241690753667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2ssa!4v1741005378673!5m2!1sar!2ssa",
+    Abha: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1901.5953701063404!2d42.507310262229026!3d18.214521753185196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2ssa!4v1741005435971!5m2!1sar!2ssa",
+
+}
