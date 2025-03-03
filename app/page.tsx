@@ -116,10 +116,10 @@ export default function Home() {
 
         <Commentssec />
         <Teamsec />
-        <div className="flex md:hidden bg-white w-full py-3 px-6 absolute left-0 bottom-0 z-10 justify-evenly items-center fixed ">
+        <div className="flex md:hidden bg-white w-full py-6 px-6 absolute left-0 bottom-0 z-10 justify-evenly items-center fixed ">
             <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
-            <Image src={AboutIcon} alt={"home icon "} width={30} height={30} />
-            <Image src={MenuIconn} alt={"home icon "} width={30} height={30} />
+            <Image src={AboutIcon} alt={"home icon "} width={35} height={30} />
+            <Image src={MenuIconn} alt={"home icon "} width={35} height={30} />
             <Image src={MenuIconn} alt={"home icon "} width={30} height={30} />
         </div>
         </>
