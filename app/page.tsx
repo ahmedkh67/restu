@@ -130,11 +130,7 @@ export default function Home() {
             <Link href={'/Reservation'}>
                <Image src={ReserveIcon} alt={"home icon "} width={35} height={30} />
             </Link>
-
-            
-            
-           
-            
+          
         </div>
         </>
     )
