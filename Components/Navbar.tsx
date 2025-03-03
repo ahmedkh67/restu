@@ -12,7 +12,7 @@ import Emailicon from '@/public/Email Icon.svg'
 import Insticon from '@/public/instagram-svgrepo-com (1).svg'
 import Whatsicon from '@/public/whatsapp-128-svgrepo-com.svg'
 import Linkedicon from '@/public/Linked in Icon.svg'
-import LanguageIcon from '@/public/languageIcon.svg'
+import LanguageIcon from '@/public/language-svgrepo-com (3).svg'
 import { motion } from "framer-motion"; 
 
 

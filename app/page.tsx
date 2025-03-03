@@ -6,6 +6,8 @@ import {Gallerybuttontitle, Herosec } from "@/Constants";
 import Link from "next/link";
 import Historysec from "@/Components/Historysec"; 
 import { offerCard } from "@/Constants";
+import Image from "next/image";
+import HomeIcon from '@/public/homeIcon.svg'
 
 
 export default function Home() {
@@ -112,7 +114,12 @@ export default function Home() {
 
         <Commentssec />
         <Teamsec />
-
+        <div className="flex bg-white w-full py-3 px-6 absolute left-0 bottom-0 z-10 justify-between items-center fixed ">
+            <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
+            <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
+            <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
+            <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
+        </div>
         </>
     )
 }
