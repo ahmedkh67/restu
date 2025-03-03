@@ -8,6 +8,9 @@ import Historysec from "@/Components/Historysec";
 import { offerCard } from "@/Constants";
 import Image from "next/image";
 import HomeIcon from '@/public/homeIcon.svg'
+import AboutIcon from '@/public/aboutIcon.svg'
+import MenuIconn from '@/public/menu3Icon.svg'
+import ReserveIcon from '@/public/writeIcon.svg'
 
 
 export default function Home() {
@@ -114,11 +117,11 @@ export default function Home() {
 
         <Commentssec />
         <Teamsec />
-        <div className="flex bg-white w-full py-3 px-6 absolute left-0 bottom-0 z-10 justify-between items-center fixed ">
+        <div className="flex md:hidden bg-white w-full py-3 px-6 absolute left-0 bottom-0 z-10 justify-evenly items-center fixed ">
             <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
-            <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
-            <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
-            <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
+            <Image src={AboutIcon} alt={"home icon "} width={30} height={30} />
+            <Image src={MenuIconn} alt={"home icon "} width={30} height={30} />
+            <Image src={ReserveIcon} alt={"home icon "} width={30} height={30} />
         </div>
         </>
     )
