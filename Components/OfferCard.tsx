@@ -2,6 +2,7 @@ import { OfferCardParams } from '@/types';
 import React from 'react'
 import Shareicon from '@/public/ShareIcon.svg'
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
@@ -23,6 +24,7 @@ function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
                 <button className="OfferMore_Button flex justify-center items-center">
                     <Image src={Shareicon} alt={'Shareicon for card'} width={27} height={27} />
                 </button>
+                <Link href={"https://hungerstation.com/sa-en/resturant/dina"} ></Link>
                 <button className="OfferOrder_Button">
                     {btntitle}                 
                 </button>
