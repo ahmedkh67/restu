@@ -120,7 +120,7 @@ export default function Home() {
         <div className="flex md:hidden bg-white w-full py-6 px-6 absolute left-0 bottom-0 z-10 justify-evenly items-center fixed ">
             <Link href={'././'}>
             <div className="flex flex-col justify-between items-center">
-              <Image src={HomeIcon} alt={"home icon "} width={30} height={30} />
+              <Image src={HomeIcon} alt={"home icon "} width={35} height={30} />
               <p className='text-[10px]'>Home</p>
             </div>
                 
