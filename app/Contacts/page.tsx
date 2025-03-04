@@ -38,7 +38,7 @@ const Contacts = () => {
             <Link href={'/Reservation'}>
               <div className="flex flex-col justify-center items-center">
                 <Image src={ReserveIcon} alt={"home icon "} width={35} height={30} />                
-                <p>Reservation</p>
+                <p className='text-[10px]'>Reservation</p>
               </div>
                
             </Link>

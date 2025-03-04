@@ -24,10 +24,11 @@ function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
                 <button className="OfferMore_Button flex justify-center items-center">
                     <Image src={Shareicon} alt={'Shareicon for card'} width={27} height={27} />
                 </button>
-                <Link href={"https://hungerstation.com/sa-en/resturant/dina"} ></Link>
-                <button className="OfferOrder_Button">
-                    {btntitle}                 
-                </button>
+                <Link href={"https://hungerstation.com/sa-en/resturant/dina"} >
+                    <button className="OfferOrder_Button">
+                        {btntitle}                 
+                    </button>
+                </Link>
             </div>
         </div>
 
