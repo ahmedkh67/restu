@@ -4,11 +4,10 @@ import Shareicon from '@/public/ShareIcon.svg'
 import Image from 'next/image';
 import Link from 'next/link';
 
-
 function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
   return (
-    <>
 
+    <>
         <div className="OfferCard_Container">
             <div className="OfferCard_Border circleanimate">
                 <div className="OfferCard_Image Hero_Background circleanimate2">

@@ -34,6 +34,7 @@ import GalleryButton from "./GalleryButton";
 import MenusecsButtons from "./MenusecsButtons";
 import OfferCard from "./OfferCard";
 import Offers from "./Offers";
+import DownNavbar from "./DownNavbar";
 
 
 
@@ -74,6 +75,7 @@ export {
     MenusecsButtons,
     OfferCard,
     Offers,
+    DownNavbar,
 
 
 }
