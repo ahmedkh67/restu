@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Commentssec, Distancesec, Historysec, MenuSlider, Navbar, TeamCards, Menusec, GalleryButton,Distance2 } from "@/Components";
+import {Commentssec, Historysec, MenuSlider, Navbar, TeamCards, Menusec, GalleryButton,Distance2 } from "@/Components";
 import Link from "next/link";
 import Image from 'next/image';
 import ArrowIcon from '@/public/Arrow2Icon.svg'
@@ -33,8 +33,6 @@ const page = () => {
         </button>
         </Link>
     </div>
-    
-    <Distancesec />
 
     <div className="flex w-full justify-center flex-col items-center">
       

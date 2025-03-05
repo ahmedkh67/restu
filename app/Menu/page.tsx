@@ -1,6 +1,6 @@
 "use client"
 
-import { Commentssec, MenuSlider, Navbar,Distance2, GalleryButton, MenusecsButtons, Lunchmenu, Dinnermenu, Sweetsmenu, OfferCard } from '@/Components'
+import { Commentssec, MenuSlider, Navbar,Distance2, GalleryButton, MenusecsButtons, Lunchmenu, Dinnermenu, Sweetsmenu, OfferCard, Offers } from '@/Components'
 import React from 'react'
 import { Gallerybuttontitle, Menuhero, offerCard } from '@/Constants'
 import Moresec from '@/Components/Moresec'
@@ -14,7 +14,7 @@ const page = () => {
       <Navbar />
       <div className="flex w-full h-full flex-col justify-evenly items-start md:px-[10%]">
         
-        <h1 className="md:text-[170px] text-[60px] font-bold text-white px-[10%]">
+        <h1 className="md:text-[170px] text-[60px] font-bold text-white pl-[10%]">
             {Menuhero} 
             
         </h1>
@@ -41,6 +41,10 @@ const page = () => {
         </h1>
         
       </div>
+    </div>
+    <div className="flex flex-col md:flex-row justify-between items-center w-full md:px-[4%] md:gap-1">
+        <Offers linkk={"/Menu"} />
+        <Offers linkk={"/Gallery"} />
     </div>
 
 
