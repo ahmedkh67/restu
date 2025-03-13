@@ -16,7 +16,7 @@ export default function Home() {
         
         <div className="Hero_Background flex md:w-[92%] w-full md:rounded-lg bg-black md:h-screen h-full flex-col justify-between items-center overflow-hidden pb-20">
             
-            <Navbar />
+            <Navbar /> 
             <div className="flex w-full h-full md:flex-row flex-col-reverse justify-evenly items-start md:px-[10%] px-[4%]">
                  <div className="flex flex-col w-full">
                  <h1 className="md:text-[100px] text-[60px] font-bold text-white upanimate">

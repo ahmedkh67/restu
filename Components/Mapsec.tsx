@@ -14,7 +14,7 @@ const Mapsec = () => {
     <>
     <div className="flex w-full justify-center flex-col items-center mb-12">
       
-      <h1 className='md:text-4xl text-2xl text-center font-bold mt-12'>
+      <h1 className='md:text-4xl text-2xl dark:text-red-300 text-center font-bold mt-12'>
         WE'll Be glad to see u
       </h1>
       <h1 className='md:text-3xl text-xl text-center w-3/4 md:w-1/2'>

@@ -3,7 +3,6 @@ import Star from '@/public/staricon.svg'
 import Image from 'next/image'
 import { CommentsecTypes } from '@/types';
 
-
 function CommentBox ({name,rate, comment, src } : CommentsecTypes ){
   return (
     <div className="flex flex-col justify-between items-center py-10 px-5 bg-white w-full h-90 ">
