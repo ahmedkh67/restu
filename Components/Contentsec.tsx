@@ -6,7 +6,7 @@ import HistoryBox from './HistoryBox';
 
 const Contentsec = () => {
   return (
-    <div className='flex md:w-1/2 w-[90%] py-11 justify-center center'>
+    <div className='flex md:w-1/2 w-[90%] py-11 justify-center items-center'>
       <motion.div
                initial={{ opacity: 0, scale: 0}}
               whileInView={{ opacity: 1, scale: 1}}
@@ -17,6 +17,16 @@ const Contentsec = () => {
         
 
       </motion.div>
+      <div className="absolute translate-x-45 flowanimate ">
+        <HistoryBox />
+      </div>
+      <div className="absolute translate-y-40 translate-x-5 flowanimate">
+        <HistoryBox />
+      </div>
+      <div className="absolute -translate-y-20 -translate-x-30 flowanimate">
+        <HistoryBox />
+      </div>
+      
       
     </div>
   )

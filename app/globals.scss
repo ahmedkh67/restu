@@ -180,6 +180,21 @@ button:hover {
   background-size: cover;
 }
 
+.flowanimate {
+  animation : flow 1.5s ease-in-out infinite
+}
+
+@keyframes flow {
+  0% {
+    transform:translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }100% {
+    transform: translateY(0);
+  }
+}
+
 
 .swiper-slide {
   text-align: center;
