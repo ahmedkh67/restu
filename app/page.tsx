@@ -65,7 +65,7 @@ export default function Home() {
             a honored resturant that bulit on passion , love , and consisty , 
             </h1>
         </div>
-        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pl-6 md:pl-0">
+        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 dark:bg-gray-800 items-start pl-6 md:pl-0">
             
             <OfferCard title={offerCard.title} bio={offerCard.bio}
             btntitle={offerCard.btntitle} />
@@ -87,7 +87,7 @@ export default function Home() {
         
         <GalleryButton title={"View Menu"} link={'/Menu'} bio={'Our best and tasty deshes waiting for u !'} />
         
-        <div className="flex w-full justify-start flex-col items-start bg-gray-200 md:pl-25 pl-6">
+        <div className="flex w-full justify-start flex-col items-start bg-gray-200 dark:bg-gray-800 md:pl-25 pl-6">
       
             <h1 className='md:text-4xl text-2xl text-start font-bold mt-12'>
                 Get to know our History
@@ -97,7 +97,7 @@ export default function Home() {
             </h1>
         </div>
         
-        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 items-start pl-6 md:pl-0">
+        <div className="flex flex-col md:flex-row justify-evenly py-8 bg-gray-200 dark:bg-gray-800 items-start pl-6 md:pl-0">
             
             <OfferCard title={offerCard.title} bio={offerCard.bio}
             btntitle={offerCard.btntitle} />

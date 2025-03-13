@@ -14,7 +14,7 @@ const Distancesec = () => {
                   
                   >
     <div className="flex flex-col md:flex-row w-full md:h-77 
-    Distance_Background11 bg-white   justify-center items-center py-4">
+    Distance_Background11 justify-center items-center py-4">
       {NumBoxes.map((item) => (
         <Numbox Num={item.Num} Dis={item.Dis} Src={item.Src}  />
       ))}     

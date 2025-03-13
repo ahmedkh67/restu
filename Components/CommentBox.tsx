@@ -9,7 +9,7 @@ function CommentBox ({name,rate, comment, src } : CommentsecTypes ){
         
         <Image src={src} alt={'profile img'} width={56} height={56} className='rounded-full w-14 h-14' />
         <div className="flex flex-col px-4">
-            <p className='text-center text-sm' >
+            <p className='text-center text-sm text-black' >
                 {name}
             </p>
             <div className="flex mb-3 justify-center">
@@ -20,7 +20,7 @@ function CommentBox ({name,rate, comment, src } : CommentsecTypes ){
                        
             </div>
             
-            <h1 className='md:text-xl text-2xl h-3/4'>
+            <h1 className='md:text-xl text-2xl h-3/4 text-black'>
                 {comment}
             </h1>
         </div>

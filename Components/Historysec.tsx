@@ -21,7 +21,7 @@ function Historysec (){
     </div>
 
 
-    <div className="flex flex-col-reverse md:flex-row w-full py-11 justify-evenly items-center md:px-11 md:h-[450px] my-16 bg-white">
+    <div className="flex flex-col-reverse md:flex-row w-full py-11 justify-evenly items-center md:px-11 md:h-[450px] my-16 ">
         <Paragraphsec title={Historysecc.Historysec_title} dis={Historysecc.Historysec_Dis}
          dis2={Historysecc.Historysec_Dis2} button_title={Historysecc.Historysec_Button}
          Url={"/History"} />

@@ -12,10 +12,10 @@ function Morebox ({title , bio , srcs } : MoreboxParams) {
     <div className='flex w-full md:w-[373px] h-[178px] md:h-[138px]  px-4 overflow-hidden justify-center'>
         <Image src={srcs} alt={'Chef hat icon'} width={80} height={65} />
         <div className="flex w-full flex-col justify-center pl-4">
-          <h1 className="text-[33px] md:text-[30px] text-black font-bold serif">
+          <h1 className="text-[33px] md:text-[30px] font-bold serif">
             {title}
           </h1>
-          <h1 className="text-[19px] md:text-[16px] text-gray-950">
+          <h1 className="text-[19px] md:text-[16px] ">
             {bio}
         
           </h1>

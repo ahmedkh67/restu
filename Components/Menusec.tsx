@@ -8,7 +8,7 @@ import MenuContent from './MenuContent';
 const Menusec = () => {
   return (
     <>
-    <div className="flex flex-col md:flex-row w-full py-11 justify-center items-center md:px-48 md:h-[450px] my-16 bg-white">
+    <div className="flex flex-col md:flex-row w-full py-11 justify-center items-center md:px-48 md:h-[450px] my-16 ">
       <MenuContent />
       <Paragraphsec title={Menusecc.Menusec_title} dis={Menusecc.Menusec_Dis} 
       dis2={Menusecc.Menusec_Dis2} button_title={Menusecc.Menusec_Button} Url={'/Menu'} />
