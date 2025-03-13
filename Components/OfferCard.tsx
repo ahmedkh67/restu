@@ -3,13 +3,13 @@ import React from 'react'
 import Shareicon from '@/public/ShareIcon.svg'
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'motion/react';
+
 
 function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
   return (
 
     <>
-    <motion.div initial={{opacity: 0}} whileInView={{opacity: 1 , transition:{duaration: 0.7}}} className='w-80 h-90' >
+
         <div className="OfferCard_Container">
             <div className="OfferCard_Border circleanimate">
                 <div className="OfferCard_Image Hero_Background circleanimate2">
@@ -32,7 +32,7 @@ function OfferCard({title, bio, src, btntitle }: OfferCardParams ){
                 </Link>
             </div>
         </div>
-        </motion.div>
+      
     </>
   )
 }
