@@ -269,7 +269,7 @@ button:hover {
 
 
   .OfferCard_Container {
-    @apply flex flex-col w-80 h-90 bg-white p-4 px-6 rounded-xl my-3 md:my-0 ;
+    @apply flex flex-col w-full h-full bg-white p-4 px-6 rounded-xl my-3 md:my-0 ;
   }
   .OfferCard_Border {
     @apply flex w-50 h-50 rounded-full border-2 border-red-500 border-dashed p-1 ; 
