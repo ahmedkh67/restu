@@ -3,7 +3,7 @@ import { Menubox1 } from '.'
 
 const Lunchmenu = () => {
   return (
-    <div id='lunchmenu' className="flex w-full md:p-10 h-full flex-col justify-evenly bg-white mt-10">
+    <div id='lunchmenu' className="flex w-full md:p-10 h-full flex-col justify-evenly md:mt-10">
       <h1 className="Opacity_animate text-4xl md:text-6xl text-center m-8 font-bold ">
         Lunch Menu
       </h1>
