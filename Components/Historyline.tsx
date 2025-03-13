@@ -7,8 +7,8 @@ import HistoryImgBox from './HistoryImgBox';
 const Historyline = () => {
   return (
     <>
-    <div className="flex w-full h-full justify-center bg-white ">
-<div className="flex w-1 h-full my-20 bg-neutral-700 flex-col justify-between items-center ">
+    <div className="flex w-full h-full justify-center ">
+<div className="flex w-1 h-full my-20 bg-neutral-700 flex-col justify-between items-center dark:bg-gray-400 ">
         
         <HistoryImgBox />
         <HistoryBox />

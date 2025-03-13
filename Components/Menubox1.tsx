@@ -11,14 +11,14 @@ const Menubox1 = () => {
         <>
         <div className="flex flex-col justify-between items-center h-full w-full">
           
-        <div className="MenuCellsContainer flex w-full h-full bg-[rgb(223,223,223)] md:my-5 flex-col justify-center items-center p-4">
+        <div className="MenuCellsContainer flex w-full h-full md:my-5 flex-col justify-center items-center p-4">
           {lunchmenu1.map((item) => (
               <div className="flex w-full h-30  p-4 items-center transition-[0.3s] hover:bg-white active:bg-white rounded-3xl ">
                 
                 
                 <div className="flex-col w-full h-full m-2 ">
   
-                  <div className="flex w-full h-1/2 justify-between items-center ">
+                  <div className="flex w-full h-1/2justify-between items-center ">
                     <h1 className="md:text-2xl text-md font-bold text-black">
                       {item.foodname}
                     </h1>
@@ -57,4 +57,4 @@ const Menubox1 = () => {
    
   }
   
-  export default Menubox1
+  export default Menubox1 

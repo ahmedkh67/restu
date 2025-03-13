@@ -7,13 +7,13 @@ import Link from 'next/link';
 
 const Distance2 = () => {
   return (
-    <div className="flex w-full md:py-10 py-5 justify-between items-center Hero_Background1 bg-black dark:bg-[#c2c2c2] md:px-60 px-5 flex-col md:flex-row">
+    <div className="flex w-full md:py-10 py-5 justify-between items-center Hero_Background1 bg-black dark:bg-red-300 md:px-60 px-5 flex-col md:flex-row">
         <div className="flex flex-col justify-evenly items-start">
             
-            <h1 className='md:text-5xl text-4xl text-white dark:text-black font-bold '>
+            <h1 className='md:text-5xl text-4xl text-white  font-bold '>
                 {Resarvesec.Title}
             </h1>
-            <p className='text-xl text-gray-300 dark:text-gray-800'>
+            <p className='text-xl text-gray-300 '>
                 {Resarvesec.Dis}
             </p>
         </div>
@@ -23,7 +23,7 @@ const Distance2 = () => {
                           whileInView={{ scale: 1}}
                           
                           ></motion.div> */}
-            <Link href={'/Reservation'} className='w-full' ><button className='Button2 text-2xl py-5 my-2 font-bold bg-white dark:bg-black border-white w-full rounded-3xl'>
+            <Link href={'/Reservation'} className='w-full' ><button className='Button2 text-2xl py-5 my-2 font-bold bg-white dark:bg-black border-white dark:border-black w-full rounded-3xl'>
                 {Resarvesec.Buttontitle}
             </button>
             </Link>
