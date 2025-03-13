@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Distance2 = () => {
   return (
-    <div className="flex w-full md:py-10 py-5 justify-between items-center Hero_Background1 bg-black dark:bg-white md:px-60 px-5 flex-col md:flex-row">
+    <div className="flex w-full md:py-10 py-5 justify-between items-center Hero_Background1 bg-black dark:bg-[#c2c2c2] md:px-60 px-5 flex-col md:flex-row">
         <div className="flex flex-col justify-evenly items-start">
             
             <h1 className='md:text-5xl text-4xl text-white dark:text-black font-bold '>

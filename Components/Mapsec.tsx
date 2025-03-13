@@ -14,15 +14,15 @@ const Mapsec = () => {
     <>
     <div className="flex w-full justify-center flex-col items-center mb-12">
       
-      <h1 className='md:text-4xl text-2xl text-center font-bold mt-12'>
+      <h1 className='md:text-4xl text-2xl text-center font-bold mt-12 dark:text-white'>
         WE'll Be glad to see u
       </h1>
-      <h1 className='md:text-3xl text-xl text-center w-3/4 md:w-1/2'>
+      <h1 className='md:text-3xl text-xl text-center w-3/4 md:w-1/2 dark:text-white'>
         a honored resturant that bulit on passion , love , and consisty , 
       </h1>
     </div>
     <div className="flex w-full justify-between items-center p-6">
-      <h1 className='md:text-3xl text-xl text-start font-bold'>
+      <h1 className='md:text-3xl text-xl text-start font-bold dark:text-white'>
         Find Youre nearest Branch
       </h1>
       <select value={Address} onChange={handleChange} name='Nameeinput' id='Nameeinput' className='flex bg-black dark:bg-white text-white dark:text-black pointer transition-[0.3s] hover:scale-[104%]  h-10 border-1 border-black border-solid px-3 rounded-lg' > 
