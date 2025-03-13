@@ -22,7 +22,7 @@ const Footer = () => {
 
                 {footerLinks.map((Linkk) => (
                     <div key={Linkk.title}
-                    className='footer__link flex flex-col gap-2 text-base min-w-[170px] '
+                    className='footer__link flex flex-col gap-2 text-base min-w-[170px] text-black dark:text-white '
                     >
                         <h3 className='font-bold
                         '>{Linkk.title}</h3>
