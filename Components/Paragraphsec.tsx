@@ -27,7 +27,7 @@ function Paragraphsec( {title, dis , dis2 , button_title , Url } : Paragraphsecp
             {dis2}        
         </h1>
         <a href={Url}>
-        <button className=" Button2  md:text-2xl text-4xl px-4 py-1 ">
+        <button className="Button2  md:text-2xl text-4xl px-4 py-1 ">
             {button_title}
         </button>
         </a>

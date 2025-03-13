@@ -13,7 +13,7 @@ const Distance2 = () => {
             <h1 className='md:text-5xl text-4xl text-white dark:text-black font-bold '>
                 {Resarvesec.Title}
             </h1>
-            <p className='text-xl text-gray-300'>
+            <p className='text-xl text-gray-300 dark:text-gray-800'>
                 {Resarvesec.Dis}
             </p>
         </div>

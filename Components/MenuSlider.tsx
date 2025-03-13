@@ -39,7 +39,7 @@ const MenuSlider = () => {
       </div>
          
 
-        <div className="flex md:w-full w-full h-45 md:mx-0 mx-0 rounded- justify-center items-center overflow-hidden bg-white">
+        <div className="flex md:w-full w-full h-45 md:mx-0 mx-0 rounded- justify-center items-center overflow-hidden">
         
 
         

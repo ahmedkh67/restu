@@ -81,10 +81,9 @@ button:hover {
   border-radius: 5px;
 }
 .Button2 {
-  border: #000000;
+  border: var(--foreground);
   border-width: 2px;
   border-style: solid;
-  color: black;
   border-radius: 5px;
 }
 
