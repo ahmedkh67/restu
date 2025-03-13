@@ -18,7 +18,7 @@ const Menubox1 = () => {
                 
                 <div className="flex-col w-full h-full m-2 ">
   
-                  <div className="flex w-full h-1/2justify-between items-center ">
+                  <div className="flex w-full h-1/2 justify-between items-center ">
                     <h1 className="md:text-2xl text-md font-bold text-black">
                       {item.foodname}
                     </h1>
