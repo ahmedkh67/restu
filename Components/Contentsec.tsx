@@ -20,10 +20,10 @@ const Contentsec = () => {
       <div className="absolute translate-x-45 flowanimate ">
         <HistoryBox />
       </div>
-      <div className="absolute translate-y-40 translate-x-5 flowanimate">
+      <div className="absolute translate-y-40 md:translate-x-5 translate-x-10 flowanimate">
         <HistoryBox />
       </div>
-      <div className="absolute -translate-y-20 -translate-x-30 flowanimate">
+      <div className="absolute -translate-y-20 md:-translate-x-30 -translate-x-10 flowanimate">
         <HistoryBox />
       </div>
       
