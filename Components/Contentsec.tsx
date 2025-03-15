@@ -12,18 +12,18 @@ const Contentsec = () => {
               whileInView={{ opacity: 1, scale: 1}}
               
               >
-        <Image src={Historypic} alt={'pic of old resturant'} height={207} width={394}  />
+        <Image src={Historypic} alt={'pic of old resturant'} height={207} width={394} className='overflow-hidden'  />
         
         
 
       </motion.div>
-      <div className="absolute translate-x-45 flowanimate ">
+      <div className="absolute translate-x-45 flowanimate overflow-hidden">
         <HistoryBox />
       </div>
-      <div className="absolute translate-y-40 translate-x-5 flowanimate">
+      <div className="absolute translate-y-40 translate-x-5 flowanimate overflow-hidden">
         <HistoryBox />
       </div>
-      <div className="absolute -translate-y-20 -translate-x-30 flowanimate">
+      <div className="absolute -translate-y-20 -translate-x-30 flowanimate overflow-hidden">
         <HistoryBox />
       </div>
       
