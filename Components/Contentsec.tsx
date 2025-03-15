@@ -17,13 +17,13 @@ const Contentsec = () => {
         
 
       </motion.div>
-      <div className="absolute translate-x-45 flowanimate overflow-hidden">
+      <div className="absolute md:translate-x-45 translate-x-33 flowanimate overflow-hidden">
         <HistoryBox />
       </div>
       <div className="absolute translate-y-40 translate-x-5 flowanimate overflow-hidden">
         <HistoryBox />
       </div>
-      <div className="absolute -translate-y-20 md:-translate-x-30 -translate-x-12 flowanimate overflow-hidden">
+      <div className="absolute -translate-y-20 -translate-x-30  flowanimate overflow-hidden">
         <HistoryBox />
       </div>
       
