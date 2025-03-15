@@ -23,7 +23,7 @@ const Contentsec = () => {
       <div className="absolute translate-y-40 translate-x-5 flowanimate overflow-hidden">
         <HistoryBox />
       </div>
-      <div className="absolute -translate-y-20 -translate-x-30 flowanimate overflow-hidden">
+      <div className="absolute -translate-y-20 md:-translate-x-30 -translate-x-12 flowanimate overflow-hidden">
         <HistoryBox />
       </div>
       
