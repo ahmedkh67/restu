@@ -1,6 +1,6 @@
 "use client "
 
-import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, OfferCard, Offers, Teamsec } from "@/Components";
+import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, OfferCard, Offers, Teamsec, MenusecsButtons} from "@/Components";
 import Moresec from "@/Components/Moresec";
 import {Gallerybuttontitle, Herosec } from "@/Constants";
 import Link from "next/link";
@@ -55,6 +55,7 @@ export default function Home() {
         
         <MenuSlider />
         <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={"Check our photos taken from the kitchen !"} />
+        <MenusecsButtons />
         <Moresec />
         <div className="flex w-full justify-start flex-col items-start bg-gray-200 dark:bg-[#161616fb] md:pl-25 pl-6">
       
